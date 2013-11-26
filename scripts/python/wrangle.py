@@ -1,6 +1,8 @@
 
 import csv
 
+from collections import defaultdict
+
 def fix_csv(csvfile, numcols):
     first = True
     count = 0
@@ -22,5 +24,6 @@ if __name__ == "__main__":
                         help="the CSV file to be printed")
     parser.add_argument("numcols", metavar='N', type=int,
                         help="the number of columsn the CSV file should have")
+    
     args = parser.parse_args()
     fix_csv(args.csvfile, args.numcols)
