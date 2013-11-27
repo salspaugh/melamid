@@ -19,36 +19,37 @@ class VizRanker(object):
         self.learned_comparisons = {}
         self.gt_comparisons = {}
         self.trained = False
+        self.total_cmps = len(viz_list) * (len(viz_list) - 1) / 2.0
 
-    def train(self):
-        if self.trained:
-            return
-        total_cmps = 0
-        generated_cmps = 0
-        for viz1, viz2 in itertools.combinations(self.viz_list, 2):
-            total_cmps += 1
-            if self.is_ambiguous(viz1, viz2):
-                generated_cmps += 1
-                better_viz = self.get_comparison(viz1, viz2)
-                self.learned_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
-                self.dcell.add_bound(SeparatingHyperPlane(viz1, viz2,
-                                                          better=better_viz))
-        print "Total comparisons: %d. Generated comparisons: %d. That's %.2f%%!" % (
-            total_cmps, generated_cmps, 100.0 * float(generated_cmps) / total_cmps)
-        self.trained = True
-                    
-    def rank(self, viz1, viz2):
+    def rank(self, viz1, viz2, get_gt=False):
         if not self.trained:
             self.train()
         cmp_key = self.get_cmp_key(viz1, viz2)
         if cmp_key not in self.learned_comparisons:
+            if get_gt:
+                self.gt_comparisons[cmp_key] = self.get_comparison(viz1, viz2)
             self.learned_comparisons[cmp_key] = self.infer_rank(viz1, viz2)
         return self.learned_comparisons[cmp_key]
 
-    def rank_all(self):
+    def rank_all(self, get_gt=False):
         for viz1, viz2 in itertools.combinations(self.viz_list, 2):
-            self.rank(viz1, viz2)
+            self.rank(viz1, viz2, get_gt=get_gt)
 
+    def train(self):
+        if self.trained:
+            return
+        generated_cmps = 0
+        for viz1, viz2 in self.active_comparisons():
+            generated_cmps += 1
+            better_viz = self.get_comparison(viz1, viz2)
+            self.learned_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
+            self.gt_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
+            self.dcell.add_bound(SeparatingHyperPlane(viz1, viz2,
+                                                      better=better_viz))
+        print "Total comparisons: %d. Generated comparisons: %d. That's %.2f%%!" % (
+            self.total_cmps, generated_cmps, 100.0 * float(generated_cmps) / self.total_cmps)
+        self.trained = True
+                    
     def infer_rank(self, viz1, viz2):
         if viz1 in self.dcell and viz2 in self.dcell: raise Exception('wtf??')
         if viz1 in self.dcell:
@@ -57,9 +58,10 @@ class VizRanker(object):
             return viz2
         return self.closer_point(viz1, viz2, self.dcell.internal_point)
 
-    def get_gt_comparisons(self):
+    def active_comparisons(self):
         for viz1, viz2 in itertools.combinations(self.viz_list, 2):
-            self.gt_comparisons[self.get_cmp_key(viz1, viz2)] = self.get_comparison(viz1, viz2)
+            if self.is_ambiguous(viz1, viz2):
+                yield (viz1, viz2)
 
     def closer_point(self, point1, point2, reference):
         # returns p1 if p1 is closer to reference than p2, p2 otherwise
@@ -158,7 +160,6 @@ class DCell(object):
                       np.dot(hyperplane2.normal, hyperplane2.intercept)])
         try:
             x = np.linalg.solve(A, b)
-#            print b, np.dot(A, x), b == np.dot(A, x), np.abs(b - np.dot(A, x)) < 0.0001
             return x
         except np.linalg.LinAlgError as e:
             return None # no intersection: hyperplanes are parallel.
@@ -202,27 +203,28 @@ if __name__ == '__main__':
     points = np.around(np.random.rand(NPOINTS, DIMENSION), decimals=4).tolist()
     GROUND_TRUTH = np.around(np.random.rand(DIMENSION), decimals=4)
     viz_ranker = VizRanker(points)
-    viz_ranker.train()
-    viz_ranker.rank_all()
-    viz_ranker.get_gt_comparisons()
-#    print viz_ranker.learned_comparisons
-#    print viz_ranker.gt_comparisons
-    print viz_ranker.learned_comparisons == viz_ranker.gt_comparisons
-    n_total = len(viz_ranker.learned_comparisons.keys())
-    n_wrong = 0
-    for comp_key in viz_ranker.learned_comparisons.keys():
-        lc = viz_ranker.learned_comparisons[comp_key] 
-        gc = viz_ranker.gt_comparisons[comp_key]
-        if lc != gc:
-#            print comp_key, lc, gc
-            n_wrong += 1
-    print "error rate: %f" % (float(n_wrong) / n_total)
-#    print GROUND_TRUTH
-#    print viz_ranker.dcell.internal_point
-#    if len(points[0]) == 2:
-#        viz_ranker.draw()
-#    import pdb;pdb.set_trace()
-
+    viz_ranker.rank_all(get_gt=True)
+    alg_success = viz_ranker.learned_comparisons == viz_ranker.gt_comparisons
+    if not alg_success:
+        n_total = viz_ranker.total_cmps
+        n_wrong = 0
+        for comp_key in viz_ranker.learned_comparisons.keys():
+            lc = viz_ranker.learned_comparisons[comp_key] 
+            gc = viz_ranker.gt_comparisons[comp_key]
+            if lc != gc:
+                if NPOINTS < 10 and DIMENSION < 10:
+                    print comp_key, lc, gc
+                n_wrong += 1
+        print "error rate: %f" % (float(n_wrong) / n_total)
+        if NPOINTS < 10 and DIMENSION < 10:
+            print GROUND_TRUTH
+            print viz_ranker.dcell.internal_point
+        import pdb;pdb.set_trace()
+    else:
+        print "error rate: 0%"
+    if DIMENSION == 2:
+        viz_ranker.draw()
+        plt.show()
 
 
 
