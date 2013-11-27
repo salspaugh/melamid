@@ -1,0 +1,3564 @@
+[
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82j",
+        "label": "Math club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82k",
+        "label": "Foreign Language club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82h",
+        "label": "History club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82i",
+        "label": "Science club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82n",
+        "label": "Drama club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82o",
+        "label": "Academic Honors Society"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82l",
+        "label": "Other subject matter club"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82m",
+        "label": "Debate or speech team"
+    },
+    {
+        "domain": {
+            "1": "VERY",
+            "3": "NOT AT ALL",
+            "2": "SOMEWHAT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys56a",
+        "label": "Other students in class see you as popular"
+    },
+    {
+        "domain": {
+            "1": "VERY SURE WILL",
+            "3": "PROBABLY WON^T",
+            "2": "PROBABLY WILL",
+            "4": "VERY SURE WON^T",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys46",
+        "label": "HOW SURE THAT YOU WILL GRADUATE FROM H.S"
+    },
+    {
+        "domain": {
+            "02": "WILL FINISH H.S",
+            "03": "VOC,TRD,BUS AFTR H.S",
+            "01": "WON'T FINISH H.S",
+            "06": "HIGHER SCH AFTR COLL",
+            "04": "WILL ATTEND COLLEGE",
+            "05": "WILL FINISH COLLEGE",
+            "98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys45",
+        "label": "HOW FAR IN SCH DO YOU THINK YOU WILL GET"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82a",
+        "label": "Science fairs"
+    },
+    {
+        "domain": {
+            "1": "1-5 CIGARETTES",
+            "0": "I DON^T SMOKE",
+            "3": "MT 1/2,LT 2 PACKS",
+            "2": "ABOUT 1/2 PACK",
+            "4": "2 PACKS OR MORE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys43",
+        "label": "NO. OF CIGARETTES R SMOKES PER DAY"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82g",
+        "label": "Dance"
+    },
+    {
+        "domain": {
+            "1": "LESS THAN 1 HOUR",
+            "0": "NONE",
+            "3": "2-3 HOURS",
+            "2": "1-2 HOURS",
+            "4": "MORE THAN 3 HRS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys41",
+        "label": "TIME SPENT AFTER SCHL WTH NO ADULT PRSNT"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82e",
+        "label": "Band or Orchestra"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64b",
+        "label": "You will go to college?"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64c",
+        "label": "You will have a job that pays well?"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64a",
+        "label": "You will graduate from high school?"
+    },
+    {
+        "domain": {
+            "01": "{JANUARY}",
+            "02": "{FEBRUARY}",
+            "03": "{MARCH}",
+            "04": "{APRIL}",
+            "05": "{MAY}",
+            "06": "{JUNE}",
+            "07": "{JULY}",
+            "08": "{AUGUST}",
+            "09": "{SEPTEMBER}",
+            "10": "{OCTOBER}",
+            "11": "{NOVEMBER}",
+            "12": "{DECEMBER}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "98": "{MISSING}"
+        },
+        "type": "ordinal",
+        "name": "birthmo",
+        "label": "Month of birth"
+    },
+    {
+        "domain": {
+            "01": "1-199 students",
+            "02": "200-399",
+            "03": "400-599",
+            "04": "600-799",
+            "05": "800-999",
+            "06": "1000-1199",
+            "07": "1200+"
+        },
+        "type": "ordinal",
+        "name": "byscenrl",
+        "label": "Total school enrollment composite"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64d",
+        "label": "You will be able to own your own home?"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64e",
+        "label": "You will have a job that you enjoy doing?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82r",
+        "label": "Student Council"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "8": "{MISSING}",
+            "2": "NO",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys5a",
+        "label": "IS FATHER/MALE GUARDIAN LIVING"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82p",
+        "label": "Student newspaper"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82q",
+        "label": "Student yearbook"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82t",
+        "label": "Religious organization"
+    },
+    {
+        "domain": {
+            "1": "LESS THAN ONCE A WK",
+            "0": "NEVER/ALMOST NEVER",
+            "3": "DAILY",
+            "2": "AT LEAST ONCE A WEEK",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys76",
+        "label": "How often do you cut or skip classes?"
+    },
+    {
+        "domain": {
+            "{cont}": "{-3.61-1.15}",
+            "99.98": "{MISSING}"
+        },
+        "type": "quantitative",
+        "name": "bycncpt1",
+        "label": "Self concept 1"
+    },
+    {
+        "domain": {
+            "{cont}": "{-3.61-1.25}",
+            "99.98": "{MISSING}"
+        },
+        "type": "nominal",
+        "name": "bycncpt2",
+        "label": "Self concept 2"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bypared",
+        "label": ""
+    },
+    {
+        "domain": {
+            "02": "2 YEARS",
+            "03": "3 YEARS",
+            "01": "1 YEAR",
+            "06": "DON^T KNOW",
+            "04": "4 YEARS",
+            "05": "MORE THAN 4 YEARS",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s17",
+        "label": "How many years will it take to graduate?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82b",
+        "label": "School varsity sports (playing against teams from other schools)"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64j",
+        "label": "You will have good friends you can count on?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82c",
+        "label": "Intramural sports (playing against teams from your own school)"
+    },
+    {
+        "domain": {
+            "02": "GRADUATED H.S.",
+            "03": "JUNIOR COLLEGE",
+            "01": "NOT FINISH H.S.",
+            "06": "MASTER'S DEGREE",
+            "07": "PH.D., M.D., ETC.",
+            "04": "COLLEGE LT 4 YRS",
+            "05": "GRADUATED COLLEGE",
+            "08": "DON^T KNOW",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys34b",
+        "label": "Mother's highest level of education"
+    },
+    {
+        "domain": {
+            "02": "GRADUATED H.S.",
+            "03": "JUNIOR COLLEGE",
+            "01": "NOT FINISH H.S.",
+            "06": "MASTER'S DEGREE",
+            "07": "PH.D., M.D., ETC.",
+            "04": "COLLEGE LT 4 YRS",
+            "05": "GRADUATED COLLEGE",
+            "08": "DON^T KNOW",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys34a",
+        "label": "Father's highest level of education"
+    },
+    {
+        "domain": {
+            "{cont}": "{28.27-80.14}",
+            "99.99": "{TEST NOT COMP}",
+            "99.98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "quantitative",
+        "name": "by2xmstd",
+        "label": "Mathematics standardized score"
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50f",
+        "label": "Preliminary American College Testing Test (PACT)"
+    },
+    {
+        "domain": {
+            "02": "COLLEGE PREPARATORY",
+            "03": "INDUSTRIAL ARTS",
+            "13": "OTHER",
+            "01": "GENERAL H.S PROGRAM",
+            "06": "MARKETING EDUCATION",
+            "07": "HEALTH OCCUPATIONS",
+            "04": "AGRICULTURAL OCCUPTN",
+            "05": "BUSINESS OCCUPATIONS",
+            "08": "HOME ECON OCCUPATION",
+            "09": "CONSUMER EDUCATION",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "12": "SPECIALIZED H.S PROG",
+            "14": "I DON^T KNOW",
+            "11": "TRADE OCCUPATIONS",
+            "15": "NEVER ATTENDED HS",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "97": "{REFUSAL}",
+            "10": "TECHNICAL OCCUPATION"
+        },
+        "type": "nominal",
+        "name": "f1s20",
+        "label": "Describe present high school program"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byparmar",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82f",
+        "label": "Chorus or choir"
+    },
+    {
+        "domain": {
+            "02": "FARMER/FARM MGR",
+            "03": "HOUSEWIFE",
+            "13": "NOT WORKING",
+            "01": "CRAFTSPERSON",
+            "06": "PRO,BUSINSS,MGRL",
+            "07": "BUSINESS OWNER",
+            "04": "LABORER/FARM WORKER",
+            "05": "MIL,POLICE,SECURITY",
+            "08": "TECHNICAL",
+            "09": "SALES,CLERICAL",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "12": "OTHER",
+            "14": "DON^T KNOW",
+            "11": "SERVICE WORKER",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "10": "SCIENCE/ENGINEERING"
+        },
+        "type": "nominal",
+        "name": "bys52",
+        "label": "Kind of work you expect to do at age 30?"
+    },
+    {
+        "domain": {
+            "1": "UP TO 4 HOURS",
+            "0": "NONE",
+            "3": "11-20 HOURS",
+            "2": "5-10 HOURS",
+            "4": "21 OR MORE HOURS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys53",
+        "label": "Number of hours working for pay per week?"
+    },
+    {
+        "domain": {
+            "02": "WAITER OR WAITRESS",
+            "03": "NEWSPAPER ROUTE",
+            "00": "NOT WRKD FOR PAY",
+            "01": "LAWN WORK",
+            "06": "OTHER MANUAL LABOR",
+            "07": "STORE CLERK",
+            "04": "BABYSITTING",
+            "05": "FARM WORK",
+            "08": "OFFICE/CLERICAL",
+            "09": "ODD JOBS",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "10": "OTHER"
+        },
+        "type": "nominal",
+        "name": "bys54",
+        "label": "Kind of work done for pay current job?"
+    },
+    {
+        "domain": {
+            "26": "",
+            "1": "YES,IDO",
+            "3": "NO, BUT EXPECTING",
+            "2": "NO, I DON^T",
+            "7": "{REFUSAL}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s76",
+        "label": "Have any children of your own?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82d",
+        "label": "Cheerleading"
+    },
+    {
+        "domain": {
+            "98": "{MISSING}",
+            "00": "I DON^T SMOKE AT ALL", 
+            "01": "< 1 CIGARETTE A DAY", 
+            "02": "1-5 CIGARETTES A DAY", 
+            "03": "ABOUT 1/2 PACK A DAY",
+            "04": "> 1/2 BUT < 2PACKS", 
+            "05": "2 PACKS/DAY OR MORE",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s77",
+        "label": "How many cigarettes smoked per day?"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bylm",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "CURRENTLY WORKING",
+            "3": "RETIRED",
+            "2": "UNEMPLOYED",
+            "4": "DISABLED",
+            "7": "{REFUSAL}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys4a",
+        "label": "Mother/female guardian employment status"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "g8minor",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58i",
+        "label": "Student possession of weapons"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58h",
+        "label": "Student use of illegal drugs"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58k",
+        "label": "Verbal abuse of teachers"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58j",
+        "label": "Physical abuse of teachers"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58a",
+        "label": "Student tardiness"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58c",
+        "label": "Students cutting class"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58b",
+        "label": "Student absenteeism"
+    },
+    {
+        "domain": {
+            "1": "HAVE",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "DO NOT HAVE",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys35p",
+        "label": "Have own bedroom?"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58d",
+        "label": "Physical conflicts among students"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58g",
+        "label": "Student use of alcohol"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58f",
+        "label": "Vandalism of school property"
+    },
+    {
+        "domain": {
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "CRAFTSPERSON",
+            "03": "FARMER, FARM MANAGER",
+            "01": "CLERICAL",
+            "06": "MGR/ADMINISTRATR",
+            "07": "MILITARY",
+            "04": "HOMEMAKER",
+            "05": "LABORER",
+            "08": "OPERATIVE",
+            "09": "PROFESSIONAL 1",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "11": "PROPRIETOR/OWNER",
+            "10": "PROFESSIONAL 2",
+            "13": "SALES",
+            "12": "PROTECTIVE SERVICE",
+            "15": "SERVICE",
+            "14": "SCHOOL TEACHER",
+            "17": "NEVER WORKED",
+            "16": "TECHNICAL",
+            "19": "STUDENT",
+            "18": "DON^T KNOW"
+        },
+        "type": "nominal",
+        "name": "bys4occ",
+        "label": "Mother/female guardian^s occupation"
+    },
+    {
+        "domain": {
+            "1": "NOT IMPORTANT",
+            "3": "VERY IMPORTANT",
+            "2": "SOMEWHAT IMPORTANT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s74",
+        "label": "Important to be married before sex"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64f",
+        "label": "You will have a happy family life?"
+    },
+    {
+        "domain": {
+            "00": "DON^T WATCH TV", 
+            "01": "LT 1 HOUR A DAY", 
+            "02": "1-2 HOURS",
+            "03": "2-3 HOURS",
+            "04": "3-4 HOURS",
+            "05": "4-5 HOURS",
+            "06": "OVER5HRSADAY",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys42b",
+        "label": "Number of hours watching TV on weekends?"
+    },
+    {
+        "domain": {
+            "1": "HAVE",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "DO NOT HAVE",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys35a",
+        "label": "A specific place for study"
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50c",
+        "label": "(ACT) American College Testing test"
+    },
+    {
+        "domain": {
+            "00": "DON^T WATCH TV", 
+            "01": "LT 1 HOUR A DAY", 
+            "02": "1-2 HOURS",
+            "03": "2-3 HOURS",
+            "04": "3-4 HOURS",
+            "05": "4-5 HOURS",
+            "06": "OVER 5 HRS A DAY",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys42a",
+        "label": "Number of hours watching TV on weekdays?"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "8": "{MISSING}",
+            "2": "NO",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys68b",
+        "label": "Special instruction for those whose first language is not English -- for"
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50d",
+        "label": "Advanced Placement (AP) test"
+    },
+    {
+        "domain": {
+            "1": "SERIOUS",
+            "3": "MINOR",
+            "2": "MODERATE",
+            "4": "NOT A PROBLEM",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys58e",
+        "label": "Robbery or theft"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byfcomp",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "TRUE",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "FALSE",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys39a",
+        "label": "My parents trust me to do what they expect without checking up on me"
+    },
+    {
+        "domain": {
+            "1": "TRUE",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "FALSE",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys39b",
+        "label": "I often do not know WHY I am supposed to do what my parents tell me to"
+    },
+    {
+        "domain": {
+            "1": "TRUE",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "FALSE",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys39c",
+        "label": "I often count on my parents to solve many of my problems for me"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "8": "{MISSING}",
+            "2": "NO",
+            "9": "{LEGITIMATE SKIP}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys29",
+        "label": "Ever in a language assistance program?"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "3": "NO",
+            "2": "MAYBE",
+            "4": "DON^T KNOW",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s75",
+        "label": "Consider having a child before marriage?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82s",
+        "label": "Computer club"
+    },
+    {
+        "domain": {
+            "1": "VERY",
+            "3": "NOT AT ALL",
+            "2": "SOMEWHAT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys56c",
+        "label": "Other students in class see you as a good student"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34e",
+        "label": "Advanced placement program"
+    },
+    {
+        "domain": {
+            "02": "SPANISH",
+            "03": "CHINESE",
+            "13": "OTHER (SPECIFY)",
+            "01": "ENGLISH",
+            "06": "FILIPINO LANGUAGE",
+            "07": "ITALIAN",
+            "04": "JAPANESE",
+            "05": "KOREAN",
+            "08": "FRENCH",
+            "09": "GERMAN",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "99": "1{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "2": "",
+            "11": "POLISH",
+            "12": "PORTUGUESE",
+            "97": "{REFUSAL}",
+            "10": "GREEK"
+        },
+        "type": "nominal",
+        "name": "bys20",
+        "label": "Language usually spoken now?"
+    },
+    {
+        "domain": {
+            "02": "SPANISH",
+            "03": "CHINESE",
+            "13": "OTHER (SPECIFY)",
+            "01": "ENGLISH",
+            "06": "FILIPINO LANGUAGE",
+            "07": "ITALIAN",
+            "04": "JAPANESE",
+            "05": "KOREAN",
+            "08": "FRENCH",
+            "09": "GERMAN",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "99": "1{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "2": "",
+            "11": "POLISH",
+            "12": "PORTUGUESE",
+            "97": "{REFUSAL}",
+            "10": "GREEK"
+        },
+        "type": "nominal",
+        "name": "bys22",
+        "label": "Language usually spoken by people at home?"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byhomewk",
+        "label": "Categorizes the number of hours per week spent doing homework as reported"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "by2xrpro",
+        "label": "Overall reading proficiency"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64i",
+        "label": "You will be respected in your community?"
+    },
+    {
+        "domain": {
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "CRAFTSPERSON",
+            "03": "FARMER, FARM MANAGER",
+            "01": "CLERICAL",
+            "06": "MGR/ADMINISTRATR",
+            "07": "MILITARY",
+            "04": "HOMEMAKER",
+            "05": "LABORER",
+            "08": "OPERATIVE",
+            "09": "PROFESSIONAL 1",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "11": "PROPRIETOR/OWNER",
+            "10": "PROFESSIONAL 2",
+            "13": "SALES",
+            "12": "PROTECTIVE SERVICE",
+            "15": "SERVICE",
+            "14": "SCHOOL TEACHER",
+            "17": "NEVER WORKED",
+            "16": "TECHNICAL",
+            "19": "STUDENT",
+            "18": "DON^T KNOW"
+        },
+        "type": "nominal",
+        "name": "bys7occ",
+        "label": "Father/male guardian^s occupation"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "g8urban",
+        "label": ""
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "by2xspro",
+        "label": "Overall science proficiency"
+    },
+    {
+        "domain": {
+            "1": "1 OR 2 DAYS",
+            "0": "NONE",
+            "3": "5 TO 10 DAYS",
+            "2": "3 OR 4 DAYS",
+            "4": "MORE THAN 10 DAYS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys75",
+        "label": "Number of days missed from school in past 4 weeks"
+    },
+    {
+        "domain": {
+            "21": "",
+            "1": "YES/VERY SURE GRAD",
+            "3": "PROBABLY NOT",
+            "2": "PROBABLY",
+            "4": "NO/VERY SURE I WON^T",
+            "7": "{REFUSAL}",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s18a",
+        "label": "Sure to graduate from high school?"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64l",
+        "label": "Your children will have a better life than you had?"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34f",
+        "label": "Special program for the educationally handicapped"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55f",
+        "label": "I got into a physical fight with another student"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8j",
+        "label": "Participated in vocational/technical skills competition"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55d",
+        "label": "My parents received a warning about my grades"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55e",
+        "label": "My parents received a warning about my behavior"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55b",
+        "label": "I was sent to the office because of problems with my school work"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55c",
+        "label": "My parents received a warning about my attendance"
+    },
+    {
+        "domain": {
+            "1": "1-2 OCCASIONS",
+            "0": "0 OCCASIONS",
+            "3": "20+ OCCASIONS",
+            "2": "3-19 OCCASIONS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s78a",
+        "label": "In lifetime, number of times had alcohol to drink?"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "bys55a",
+        "label": "I was sent to the office because I was misbehaving"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83i",
+        "label": "Summer programs, such as workshops or institutes in science, language,"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "2": "PARTICIPATED MEMBER",
+            "3": "PARTICIPATED OFFICER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83h",
+        "label": "Y or other youth groups"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "2": "PARTICIPATED MEMBER",
+            "3": "PARTICIPATED OFFICER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83j",
+        "label": "Other"
+    },
+    {
+        "domain": {
+            "{cont}": "{28.27-80.14}",
+            "99.99": "{TEST NOT COMP}",
+            "99.98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "quantitative",
+        "name": "bygrads",
+        "label": ""
+    },
+    {
+        "domain": {
+            "0": "NEVER",
+            "1": "1-2 TIMES",
+            "2": "3-6 TIMES",
+            "3": "7-9 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s10g",
+        "label": "I was arrested"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "ordinal",
+        "name": "f1s64k",
+        "label": "Life will turn out better for you than it has for your parents?"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83a",
+        "label": "Scouting"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83e",
+        "label": "Boys' clubs or girls' clubs"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83c",
+        "label": "Hobby clubs"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83b",
+        "label": "Religious youth groups"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "8": "{MISSING}",
+            "2": "NO",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys2a",
+        "label": "IS MOTHER/FEMALE GUARDIAN LIVING"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83d",
+        "label": "Neighborhood clubs or programs"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83g",
+        "label": "FOUR H CLUB"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys83f",
+        "label": "Non-school team sports"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bylocus1",
+        "label": "was designed to be as comparable as possible with HS&B and NLS-72 data. Locus of control items are BYS44B, BYS44C, BYS44F, BYS44G, BYS44K, and BYS44M. Three of these items are comparable to HS&B and NLS-72 items. They are BYS44C, BYS44F, and BYS44G. Note that while these are comparable, they are not always identical."
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bylocus2",
+        "label": "is the composite of the locus of control items BYS44B, BYS44C, BYS44F, BYS44G, BYS44K, and BYS44M. BYS44K is a reverse scoring item so the values were reversed before performing computations. Each of these six items was standardized separately to a mean of zero and a standard deviation of 1 using BYQWT. All nonmissing components were averaged. Any student missing all components was assigned a missing value (8). The actual range for BYLOCUS2 is -3.01 through 1.52, from low to high control; 99.98 indicates missing. -------------------------------"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34a",
+        "label": "Remedial English (sometimes called basic or essential)"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8i",
+        "label": "Received a community service award"
+    },
+    {
+        "domain": {
+            "02": "TWO",
+            "03": "THREE",
+            "00": "NONE",
+            "01": "ONE",
+            "06": "SIX OR MORE",
+            "04": "FOUR",
+            "05": "FIVE",
+            "98": "{MISSING}",
+            "4": "",
+            "(MARK": "ONE)",
+            "96": "{MULTIPLE RESPNSE}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys32",
+        "label": "NUMBER OF SIBLINGS R HAS"
+    },
+    {
+        "domain": {
+            "24": "",
+            "1": "NO,DON^T PLN COLLEGE",
+            "3": "YES, AFTER ONE YEAR",
+            "2": "YES, RIGHT AFTER H.S",
+            "5": "DON^T KNOW",
+            "4": "YES, AFTER OVER A YR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s51",
+        "label": "DOES R PLAN TO GO TO COLLEGE AFTER H.S."
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "by2xmpro",
+        "label": "OVERALL MATH PROFICIENCY"
+    },
+    {
+        "domain": {
+            "03": "HALFAANDHALFB 04 MOSTLY B^S",
+            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
+            "07": "HALFCANDHALFD 08 MOSTLY D^S",
+            "10": "CLASSES NOT GRADED",
+            "09": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "05": "HALFBANDHALFC 06 MOSTLY C^S",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s39d",
+        "label": "Science"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s64g",
+        "label": "You will stay in good health most of the time?"
+    },
+    {
+        "domain": {
+            "03": "HALFAANDHALFB 04 MOSTLY B^S",
+            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
+            "07": "HALFCANDHALFD 08 MOSTLY D^S",
+            "10": "CLASSES NOT GRADED",
+            "09": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "05": "HALFBANDHALFC 06 MOSTLY C^S",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s39a",
+        "label": "Math"
+    },
+    {
+        "domain": {
+            "03": "HALFAANDHALFB 04 MOSTLY B^S",
+            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
+            "07": "HALFCANDHALFD 08 MOSTLY D^S",
+            "10": "CLASSES NOT GRADED",
+            "09": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "05": "HALFBANDHALFC 06 MOSTLY C^S",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s39b",
+        "label": "English"
+    },
+    {
+        "domain": {
+            "03": "HALFAANDHALFB 04 MOSTLY B^S",
+            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
+            "07": "HALFCANDHALFD 08 MOSTLY D^S",
+            "10": "CLASSES NOT GRADED",
+            "09": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "05": "HALFBANDHALFC 06 MOSTLY C^S",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s39c",
+        "label": "History"
+    },
+    {
+        "domain": {
+            "02": "H.S GRADUATION ONLY",
+            "03": "< 2 YRS TRADE SCHOOL",
+            "01": "LESS THAN H.S. GRAD",
+            "06": "2/MORE YRS OF COLL",
+            "07": "FINISH COLLEGE",
+            "04": "2+ YRS TRADE SCHOOL",
+            "05": "< 2YRS OF COLLEGE",
+            "08": "MASTER^S DEGREE",
+            "09": "PH.D., M.D.",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s49",
+        "label": "HOW FAR IN SCHOOL R THINKS HE WILL GET"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8h",
+        "label": "Named most valuable player on a sports team"
+    },
+    {
+        "domain": {
+            "1": "DID NOT PARTICIPATE",
+            "3": "PARTICIPATED OFFICER",
+            "2": "PARTICIPATED MEMBER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys82u",
+        "label": "Vocational education club"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62i",
+        "label": "I feel useless at times"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62j",
+        "label": "At times, I think I am no good at all"
+    },
+    {
+        "domain": {
+            "{cont}": "{28.27-80.14}",
+            "99.99": "{TEST NOT COMP}",
+            "99.98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "by2xrstd",
+        "label": "READING STANDARDIZED SCORE"
+    },
+    {
+        "domain": {
+            "1": "1HRORLESSPERWK 2 2 HOURS",
+            "0": "NONE",
+            "3": "3 HOURS",
+            "5": "6HRSORMOREPERWK",
+            "4": "4-5 HOURS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys80",
+        "label": "HOW MUCH READING DO YOU DO ON YOUR OWN"
+    },
+    {
+        "domain": {
+            "1": "VERY SURE I^LL GO",
+            "3": "PROBABLY WON^T GO",
+            "2": "PROBABLY WILL GO",
+            "4": "VERY SURE I WON^T GO",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s18b",
+        "label": "R SURE TO FURTHER EDUCATION AFTER H.S"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byhmlang",
+        "label": "characterizes primary language use and dominant language use in the home by differentiating between English or non-English languages. The classification was made from the student questionnaire data."
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50a",
+        "label": "Pre-SAT test"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8g",
+        "label": "Received special recognition for writing an essay or poem"
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50e",
+        "label": "Armed Services Vocational Aptitude Battery (ASVAB)"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "birthyr",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62a",
+        "label": "I feel good about myself"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys57a",
+        "label": "I had something stolen from me at school"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys57b",
+        "label": "Someone offered to sell me drugs at school"
+    },
+    {
+        "domain": {
+            "1": "ONCE OR TWICE",
+            "0": "NEVER",
+            "2": "MORE THAN TWICE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys57c",
+        "label": "Someone threatened to hurt me at school"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byfamsiz",
+        "label": "are:"
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10a",
+        "label": "I was late for school"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62c",
+        "label": "In my life, good luck is more important than hard work for success"
+    },
+    {
+        "domain": {
+            "1": "MALE",
+            "8": "{MISSING}",
+            "2": "FEMALE",
+            "7": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys12",
+        "label": "SEX OF RESPONDENT"
+    },
+    {
+        "domain": {
+            "02": "SPANISH",
+            "03": "CHINESE",
+            "13": "OTHER (SPECIFY)",
+            "01": "ENGLISH",
+            "06": "FILIPINO LANGUAGE",
+            "07": "ITALIAN",
+            "04": "JAPANESE",
+            "05": "KOREAN",
+            "08": "FRENCH",
+            "09": "GERMAN",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "99": "1{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "2": "",
+            "11": "POLISH",
+            "12": "PORTUGUESE",
+            "97": "{REFUSAL}",
+            "10": "GREEK"
+        },
+        "type": "nominal",
+        "name": "bys18",
+        "label": "1ST LANG R LEARNED TO SPEAK AS A CHILD"
+    },
+    {
+        "domain": {
+            "02": "MOSTLY BS",
+            "03": "MOSTLY CS",
+            "01": "MOSTLY AS",
+            "06": "NOT GRADED",
+            "04": "MOSTLY DS",
+            "05": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys81c",
+        "label": "SCIENCE"
+    },
+    {
+        "domain": {
+            "02": "MOSTLY BS",
+            "03": "MOSTLY CS",
+            "01": "MOSTLY AS",
+            "06": "NOT GRADED",
+            "04": "MOSTLY DS",
+            "05": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys81b",
+        "label": "MATHEMATICS"
+    },
+    {
+        "domain": {
+            "02": "MOSTLY BS",
+            "03": "MOSTLY CS",
+            "01": "MOSTLY AS",
+            "06": "NOT GRADED",
+            "04": "MOSTLY DS",
+            "05": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys81a",
+        "label": "ENGLISH"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62f",
+        "label": "Every time I try to get ahead, something or somebody stops me"
+    },
+    {
+        "domain": {
+            "02": "MOSTLY BS",
+            "03": "MOSTLY CS",
+            "01": "MOSTLY AS",
+            "06": "NOT GRADED",
+            "04": "MOSTLY DS",
+            "05": "MOSTLY BELOW D",
+            "98": "{MISSING}",
+            "96": "{MULTIPLE RESPNSE}",
+            "97": "{REFUSAL}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys81d",
+        "label": "SOCIAL STUDIES"
+    },
+    {
+        "domain": {
+            "1": "OFTEN",
+            "3": "RARELY",
+            "2": "SOMETIMES",
+            "4": "NEVER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys38d",
+        "label": "Limit the amount of time for going out with friends on school nights"
+    },
+    {
+        "domain": {
+            "1": "OFTEN",
+            "3": "RARELY",
+            "2": "SOMETIMES",
+            "4": "NEVER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys38c",
+        "label": "Limit the amount of time you can spend watching TV"
+    },
+    {
+        "domain": {
+            "1": "OFTEN",
+            "3": "RARELY",
+            "2": "SOMETIMES",
+            "4": "NEVER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys38b",
+        "label": "Require you to do work or chores around the home"
+    },
+    {
+        "domain": {
+            "1": "OFTEN",
+            "3": "RARELY",
+            "2": "SOMETIMES",
+            "4": "NEVER",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys38a",
+        "label": "Check on whether you have done your homework"
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10c",
+        "label": "I got in trouble for not following school rules"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys66a",
+        "label": "English (language arts)"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys66b",
+        "label": "Social studies"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys66c",
+        "label": "Science"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys66d",
+        "label": "Mathematics"
+    },
+    {
+        "domain": {
+            "BYS31C": "HISPANIC SUBDIVISION",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "FILIPINO",
+            "03": "JAPANESE",
+            "01": "CHINESE",
+            "06": "PACIFIC ISLANDER",
+            "07": "SOUTH ASIAN",
+            "04": "KOREAN",
+            "05": "SOUTHEAST ASIAN",
+            "BYS31B": "ASIAN OR PACIFIC ISLANDER SUBDIVISION",
+            "09": "MIDDLE EASTERN",
+            "BYS31D": "HISPANIC RACE",
+            "1": "BLACK HISPANIC",
+            "3": "OTHER HISPANIC",
+            "2": "WHITE HISPANIC",
+            "5": "AMERICAN INDIAN",
+            "4": "OTHER HISPANIC",
+            "7": "{REFUSAL}",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "10": "OTHER ASIAN",
+            "08": "WEST ASIAN"
+        },
+        "type": "nominal",
+        "name": "bys31a",
+        "label": "Which best describes you?  (MARK ONE)"
+    },
+    {
+        "domain": {
+            "BYS31C": "HISPANIC SUBDIVISION",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "FILIPINO",
+            "03": "JAPANESE",
+            "01": "CHINESE",
+            "06": "PACIFIC ISLANDER",
+            "07": "SOUTH ASIAN",
+            "04": "KOREAN",
+            "05": "SOUTHEAST ASIAN",
+            "BYS31B": "ASIAN OR PACIFIC ISLANDER SUBDIVISION",
+            "09": "MIDDLE EASTERN",
+            "BYS31D": "HISPANIC RACE",
+            "1": "BLACK HISPANIC",
+            "3": "OTHER HISPANIC",
+            "2": "WHITE HISPANIC",
+            "5": "AMERICAN INDIAN",
+            "4": "OTHER HISPANIC",
+            "7": "{REFUSAL}",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "10": "OTHER ASIAN",
+            "08": "WEST ASIAN"
+        },
+        "type": "nominal",
+        "name": "bys31b",
+        "label": "ASIAN OR PACIFIC ISLANDER SUBDIVISION"
+    },
+    {
+        "domain": {
+            "BYS31C": "HISPANIC SUBDIVISION",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "FILIPINO",
+            "03": "JAPANESE",
+            "01": "CHINESE",
+            "06": "PACIFIC ISLANDER",
+            "07": "SOUTH ASIAN",
+            "04": "KOREAN",
+            "05": "SOUTHEAST ASIAN",
+            "BYS31B": "ASIAN OR PACIFIC ISLANDER SUBDIVISION",
+            "09": "MIDDLE EASTERN",
+            "BYS31D": "HISPANIC RACE",
+            "1": "BLACK HISPANIC",
+            "3": "OTHER HISPANIC",
+            "2": "WHITE HISPANIC",
+            "5": "AMERICAN INDIAN",
+            "4": "OTHER HISPANIC",
+            "7": "{REFUSAL}",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "10": "OTHER ASIAN",
+            "08": "WEST ASIAN"
+        },
+        "type": "nominal",
+        "name": "bys31c",
+        "label": "HISPANIC SUBDIVISION"
+    },
+    {
+        "domain": {
+            "BYS31C": "HISPANIC SUBDIVISION",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "FILIPINO",
+            "03": "JAPANESE",
+            "01": "CHINESE",
+            "06": "PACIFIC ISLANDER",
+            "07": "SOUTH ASIAN",
+            "04": "KOREAN",
+            "05": "SOUTHEAST ASIAN",
+            "BYS31B": "ASIAN OR PACIFIC ISLANDER SUBDIVISION",
+            "09": "MIDDLE EASTERN",
+            "BYS31D": "HISPANIC RACE",
+            "1": "BLACK HISPANIC",
+            "3": "OTHER HISPANIC",
+            "2": "WHITE HISPANIC",
+            "5": "AMERICAN INDIAN",
+            "4": "OTHER HISPANIC",
+            "7": "{REFUSAL}",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "99": "{LEGITIMATE SKIP}",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "10": "OTHER ASIAN",
+            "08": "WEST ASIAN"
+        },
+        "type": "nominal",
+        "name": "bys31d",
+        "label": "HISPANIC RACE"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8e",
+        "label": "Received special recognition for good attendance"
+    },
+    {
+        "domain": {
+            "02": "TWO RISK FACTORS",
+            "03": "THREE RISK FACTORS",
+            "00": "NO RISK FACTORS",
+            "01": "ONE RISK FACTOR",
+            "06": "SIX RISK FACTORS",
+            "04": "FOUR RISK FACTORS",
+            "05": "FIVE RISK FACTORS",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "byrisk",
+        "label": "BY RISK OF DROPPING OUT OF SCHOOL"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34b",
+        "label": "Remedial Mathematics (sometimes called basic or essential)"
+    },
+    {
+        "domain": {
+            "1": "1OR2DAYS",
+            "0": "NONE",
+            "3": "5TO10DAYS",
+            "2": "3OR4DAYS",
+            "4": "MORE THAN 10 DAYS",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys77",
+        "label": "# OF TIMES LATE FOR SCHOOL PAST 4 WEEKS"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byses",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10b",
+        "label": "I cut or skipped classes"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62h",
+        "label": "On the whole, I am satisfied with myself"
+    },
+    {
+        "domain": {
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "CRAFTSMAN",
+            "03": "FARMER, FARM MANAGER",
+            "01": "CLERICAL",
+            "06": "MANAGER,ADMINISTRATR",
+            "07": "MILITARY",
+            "04": "HOMEMAKER/HOUSEWIFE",
+            "05": "LABORER",
+            "08": "OPERATIVE",
+            "09": "PROFESSIONAL/ACCOUNT",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "11": "PROPRIETOR OR OWNER",
+            "10": "PROFESSIONAL/CLERGY",
+            "13": "SALES",
+            "12": "PROTECTIVE SERVICE",
+            "15": "SERVICE",
+            "14": "SCHOOL TEACHER",
+            "17": "NOT PLANNING TO WORK",
+            "16": "TECHNICAL",
+            "19": "DON^T KNOW",
+            "18": "OTHER"
+        },
+        "type": "nominal",
+        "name": "f1s53a",
+        "label": "OCCUPATION R EXPECTS TO HAVE AFTER H.S"
+    },
+    {
+        "domain": {
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "02": "CRAFTSMAN",
+            "03": "FARMER, FARM MANAGER",
+            "01": "CLERICAL",
+            "06": "MANAGER,ADMINISTRATR",
+            "07": "MILITARY",
+            "04": "HOMEMAKER/HOUSEWIFE",
+            "05": "LABORER",
+            "08": "OPERATIVE",
+            "09": "PROFESSIONAL/ACCOUNT",
+            "98": "{MISSING}",
+            "97": "{REFUSAL}",
+            "96": "{MULTIPLE RESPNSE}",
+            "11": "PROPRIETOR OR OWNER",
+            "10": "PROFESSIONAL/CLERGY",
+            "13": "SALES",
+            "12": "PROTECTIVE SERVICE",
+            "15": "SERVICE",
+            "14": "SCHOOL TEACHER",
+            "17": "NOT PLANNING TO WORK",
+            "16": "TECHNICAL",
+            "19": "DON^T KNOW",
+            "18": "OTHER"
+        },
+        "type": "nominal",
+        "name": "f1s53b",
+        "label": "OCCUPATION R EXPECTS TO HAVE AT AGE 30"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62k",
+        "label": "When I make plans, I am almost certain I can make them work"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62l",
+        "label": "I feel I do not have much to be proud of"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62m",
+        "label": "Chance and luck are very important for what happens in my life"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62n",
+        "label": "I feel emotionally empty most of the time"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "f1s43",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34d",
+        "label": "English as a Second Language program"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62b",
+        "label": "I don't have enough control over the direction my life is taking"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "byfaminc",
+        "label": "categorizes the family income.  It was taken directly from BYP80.  The"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62d",
+        "label": "I feel I am a person of worth, the equal of other people"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62e",
+        "label": "I am able to do things as well as most other people"
+    },
+    {
+        "domain": {
+            "{cont}": "{28.27-80.14}",
+            "99.99": "{TEST NOT COMP}",
+            "99.98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "by2xhstd",
+        "label": "HISTORY/CIT/GEOG STANDARDIZED SCORE"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s62g",
+        "label": "My plans hardly ever work out, so planning only makes me unhappy"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bypsepln",
+        "label": "characterizes the postsecondary school plans of the student and was taken directly from BYS45. The values for BYPSEPLN are:"
+    },
+    {
+        "domain": {
+            "1": "CURRENTLY WORKING",
+            "3": "RETIRED",
+            "2": "UNEMPLOYED",
+            "4": "DISABLED",
+            "7": "{REFUSAL}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys7a",
+        "label": "FATHER/MALE GUARDIAN EMPLOYMENT STATUS"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34h",
+        "label": "Dropout prevention program"
+    },
+    {
+        "domain": {
+            "1": "NO",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "YES",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys74",
+        "label": "EVER HELD BACK A GRADE IN SCHOOL"
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10e",
+        "label": "I was suspended or put on probation from school"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "id",
+        "label": ""
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "8": "{MISSING}",
+            "2": "NO",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys68a",
+        "label": "Classes for gifted or talented students"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59j",
+        "label": "Most of my teachers really listen to what I have to say"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59k",
+        "label": "I don't feel safe at this school"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59h",
+        "label": "When I work hard on schoolwork, my teachers praise my effort"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59i",
+        "label": "In class I often feel 'put down' by my teachers"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8c",
+        "label": "Won an academic honor"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8b",
+        "label": "Elected officer of a school class"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59l",
+        "label": "Disruptions by other students get in the way of my learning"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59m",
+        "label": "Misbehaving students often get away with it"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59b",
+        "label": "There is real school spirit"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59c",
+        "label": "Rules for behavior are strict"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59a",
+        "label": "Students get along well with teachers"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59f",
+        "label": "The teaching is good"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59g",
+        "label": "Teachers are interested in students"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59d",
+        "label": "Discipline is fair"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys59e",
+        "label": "Other students often disrupt class"
+    },
+    {
+        "domain": {
+            "1": "NOTATALL",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys36a",
+        "label": "Selecting courses or programs at school"
+    },
+    {
+        "domain": {
+            "1": "NOTATALL",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys36c",
+        "label": "Things you've studied in class"
+    },
+    {
+        "domain": {
+            "1": "NOTATALL",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys36b",
+        "label": "School activities or events of particular interest to you"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34g",
+        "label": "Special program for the physically handicapped"
+    },
+    {
+        "domain": {
+            "1": "VERY LOW",
+            "3": "ABOUT FIFTY-FIFTY",
+            "2": "LOW",
+            "5": "VERY HIGH",
+            "4": "HIGH",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s64h",
+        "label": "You will be able to live wherever you want in the country?"
+    },
+    {
+        "domain": {
+            "{cont}": "{28.27-80.14}",
+            "99.99": "{TEST NOT COMP}",
+            "99.98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "by2xsstd",
+        "label": "SCIENCE STANDARDIZED SCORE"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44l",
+        "label": "I feel I do not have much to be proud of"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44m",
+        "label": "Chance and luck are very important for what happens in my life"
+    },
+    {
+        "domain": {
+            "1": "VERY",
+            "3": "NOT AT ALL",
+            "2": "SOMEWHAT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys56e",
+        "label": "Other students in class see you as a trouble-maker"
+    },
+    {
+        "domain": {
+            "1": "VERY",
+            "3": "NOT AT ALL",
+            "2": "SOMEWHAT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys56d",
+        "label": "Other students in class see you as important"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44h",
+        "label": "On the whole, I am satisfied with myself"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44i",
+        "label": "I certainly feel useless at times"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44j",
+        "label": "At times I think I am no good at all"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44k",
+        "label": "When I make plans, I am almost certain I can make them work"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44d",
+        "label": "I feel I am a person of worth, the equal of other people"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44e",
+        "label": "I am able to do things as well as most other people"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44f",
+        "label": "Every time I try to get ahead, something or somebody stops me"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44g",
+        "label": "My plans hardly ever work out, so planning only makes me unhappy"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "6": "{MULTIPLE RESPNSE}",
+            "2": "NO",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s34c",
+        "label": "Bilingual or bicultural program"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44a",
+        "label": "I feel good about myself"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44b",
+        "label": "I don't have enough control over the direction my life is taking"
+    },
+    {
+        "domain": {
+            "1": "STRONGLY AGREE",
+            "3": "DISAGREE",
+            "2": "AGREE",
+            "4": "STRONGLY DISAGREE",
+            "7": "",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys44c",
+        "label": "In my life, good luck is more important than hard work for success"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "g8lunch",
+        "label": "categorizes the percentage of free or reduced price lunch at the school calculated from the school questionnaire. It was constructed by dividing BYSC16A by BYSC2, multiplying by 100, rounding to the nearest whole number and coding the result. If the school questionnaire was missing or if BYSC16A was missing, G8LUNCH was set to missing. The value for G8LUNCH are:"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s33",
+        "label": "Have not taken a vocational course"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8d",
+        "label": "Participated in a science or math fair"
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "g8regon",
+        "label": "indicates in which of the four U.S. Census regions the school is located."
+    },
+    {
+        "domain": {},
+        "type": "nominal",
+        "name": "bylep",
+        "label": "specifies whether the student had Limited English Proficiency. It was"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8f",
+        "label": "Received special recognition for good grades or honor roll"
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10d",
+        "label": "I was put on an in-school suspension"
+    },
+    {
+        "domain": {
+            "1": "APPLIES",
+            "8": "{MISSING}",
+            "2": "DOES NOT APPLY",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s8a",
+        "label": "I have not won any awards or received recognition"
+    },
+    {
+        "domain": {
+            "1": "HIGH",
+            "3": "LOW",
+            "2": "MIDDLE",
+            "5": "I DON^T KNOW",
+            "4": "AREN^T GROUPED",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys60b",
+        "label": "Science"
+    },
+    {
+        "domain": {
+            "1": "HIGH",
+            "3": "LOW",
+            "2": "MIDDLE",
+            "5": "I DON^T KNOW",
+            "4": "AREN^T GROUPED",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys60c",
+        "label": "English"
+    },
+    {
+        "domain": {
+            "1": "VERY",
+            "3": "NOT AT ALL",
+            "2": "SOMEWHAT",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys56b",
+        "label": "Other students in class see you as athletic"
+    },
+    {
+        "domain": {
+            "1": "HIGH",
+            "3": "LOW",
+            "2": "MIDDLE",
+            "5": "I DON^T KNOW",
+            "4": "AREN^T GROUPED",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys60a",
+        "label": "Mathematics"
+    },
+    {
+        "domain": {
+            "1": "HIGH",
+            "3": "LOW",
+            "2": "MIDDLE",
+            "5": "I DON^T KNOW",
+            "4": "AREN^T GROUPED",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys60d",
+        "label": "Social Studies"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "3": "DON^T KNOW",
+            "2": "NO",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys37b",
+        "label": "Phoned or spoken to your teacher or counselor"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "3": "DON^T KNOW",
+            "2": "NO",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys37c",
+        "label": "Visited your classes"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "3": "DON^T KNOW",
+            "2": "NO",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys37a",
+        "label": "Attended a school meeting"
+    },
+    {
+        "domain": {
+            "1": "1-2 TIMES",
+            "0": "NEVER",
+            "3": "7-9 TIMES",
+            "2": "3-6 TIMES",
+            "4": "OVER 10 TIMES",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s10f",
+        "label": "I was transferred to another school for disciplinary reasons"
+    },
+    {
+        "domain": {
+            "1": "YES",
+            "3": "DON^T KNOW",
+            "2": "NO",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys37d",
+        "label": "Attended a school event such as a play, concert, gym exhibit, sports"
+    },
+    {
+        "domain": {
+            "1": "VERY WELL",
+            "3": "WELL",
+            "2": "PRETTY WELL",
+            "4": "NOT VERY WELL",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys27c",
+        "label": "How well do you read English?"
+    },
+    {
+        "domain": {
+            "1": "VERY WELL",
+            "3": "WELL",
+            "2": "PRETTY WELL",
+            "4": "NOT VERY WELL",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys27b",
+        "label": "How well do you speak English?"
+    },
+    {
+        "domain": {
+            "1": "VERY WELL",
+            "3": "WELL",
+            "2": "PRETTY WELL",
+            "4": "NOT VERY WELL",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys27a",
+        "label": "How well do you understand spoken English?"
+    },
+    {
+        "domain": {
+            "1": "HAVEN^T THOUGHT ABT",
+            "3": "YES, THIS YEAR",
+            "2": "DON^T PLAN TO TAKE",
+            "5": "YES, IN 12TH GRADE",
+            "4": "YES, NEXT YEAR",
+            "6": "{MULTIPLE RESPNSE}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "f1s50b",
+        "label": "College Board (SAT) Scholastic Aptitude Test"
+    },
+    {
+        "domain": {
+            "1": "VERY WELL",
+            "3": "WELL",
+            "2": "PRETTY WELL",
+            "4": "NOT VERY WELL",
+            "6": "{MULTIPLE RESPNSE}",
+            "9": "{LEGITIMATE SKIP}",
+            "8": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "nominal",
+        "name": "bys27d",
+        "label": "How well do you write English?"
+    }
+]
