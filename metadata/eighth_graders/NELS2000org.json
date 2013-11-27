@@ -420,10 +420,20 @@
         "label": "Self concept 2"
     },
     {
-        "domain": {},
+        "domain": {
+            "01": "NOT FINISH H.S.",
+            "02": "GRADUATED H.S. OR GED",
+            "03": "GT H.S. & LT 4 YR DEGREE",
+            "04": "GRADUATED COLLEGE",
+            "05": "MASTER'S DEGREE",
+            "06": "PH.D., M.D., ETC.",
+            "08": "DON'T KNOW",
+            "98": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
         "type": "nominal",
         "name": "bypared",
-        "label": ""
+        "label": "Parents' highest education level"
     },
     {
         "domain": {
@@ -571,10 +581,18 @@
         "label": "Describe present high school program"
     },
     {
-        "domain": {},
+        "domain": {
+            "01": "Divorced",
+            "02": "Widowed",
+            "03": "Separated",
+            "04": "Never married",
+            "05": "Not married but living in a marriage-like relationship",
+            "06": "Married",
+            "98": "Missing"
+        },
         "type": "nominal",
         "name": "byparmar",
-        "label": ""
+        "label": "Parents' marital status"
     },
     {
         "domain": {
@@ -693,10 +711,14 @@
         "label": "How many cigarettes smoked per day?"
     },
     {
-        "domain": {},
+        "domain": {
+            "0": "The student is not classified Language Minority",
+            "1": "The student is classified Language Minority",
+            "8": "Missing"
+        },
         "type": "nominal",
         "name": "bylm",
-        "label": ""
+        "label": "Language minority composite"
     },
     {
         "domain": {
@@ -714,10 +736,20 @@
         "label": "Mother/female guardian employment status"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "000": "None",
+            "001": "1-5%",
+            "002": "6-10%",
+            "003": "11-20%",
+            "004": "21-40%",
+            "005": "41-60%",
+            "006": "61-90%",
+            "007": "91-100%",
+            "998": "Missing"
+        },
+        "type": "ordinal",
         "name": "g8minor",
-        "label": ""
+        "label": "Percent minority in school"
     },
     {
         "domain": {
@@ -1031,10 +1063,18 @@
         "label": "Robbery or theft"
     },
     {
-        "domain": {},
+        "domain": {
+            "01": "Mother and father",
+            "02": "Mother and male guardian",
+            "03": "Father and female guardian",
+            "04": "Mother only",
+            "05": "Father only",
+            "06": "Other relative or non-relative",
+            "98": "Missing, BYS8A-I were all missing",
+        },
         "type": "nominal",
         "name": "byfcomp",
-        "label": ""
+        "label": "Family composition composite"
     },
     {
         "domain": {
@@ -1189,14 +1229,31 @@
         "label": "Language usually spoken by people at home?"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "01": "None",
+            "02": ".50 to 1.99 hours",
+            "03": "2.00 to 2.99",
+            "04": "3.00 to 5.49",
+            "05": "5.50 to 10.49",
+            "06": "10.50 to 12.99",
+            "07": "13.00 to 20.99",
+            "08": "21.00 or more",
+            "98": "Missing"
+        },
+        "type": "ordinal",
         "name": "byhomewk",
-        "label": "Categorizes the number of hours per week spent doing homework as reported"
+        "label": "Number of hours spent on homework per week"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "0": "Below Level 1",
+            "1": "At Level 1, but below Level 2 and 3",
+            "2": "At Level 1 and 2, but below Level 3",
+            "3": "Proficient at all three levels",
+            "8": "Missing data",
+            "9": "Did not complete test"
+        },
+        "type": "ordinal",
         "name": "by2xrpro",
         "label": "Overall reading proficiency"
     },
@@ -1246,14 +1303,25 @@
         "label": "Father/male guardian's occupation"
     },
     {
-        "domain": {},
+        "domain": {
+            "1": "Urban",
+            "2": "Suburban",
+            "3": "Rural"
+        },
         "type": "nominal",
         "name": "g8urban",
-        "label": ""
+        "label": "Urbanicity composite"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "0": "Below Level 1",
+            "1": "At Level 1, but below Level 2 and 3",
+            "2": "At Level 1 and 2, but below Level 3",
+            "3": "Proficient at all three levels",
+            "8": "Missing data",
+            "9": "Did not complete test"
+        },
+        "type": "ordinal",
         "name": "by2xspro",
         "label": "Overall science proficiency"
     },
@@ -1601,16 +1669,22 @@
         "label": "Non-school team sports"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "{cont}": "{-3.01-1.52}",
+            "99.98": "{MISSING}"
+        },
+        "type": "quantitative",
         "name": "bylocus1",
-        "label": ""
+        "label": "Locus of control 1"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "{cont}": "{-3.01-1.52}",
+            "99.98": "{MISSING}"
+        },
+        "type": "quantitative",
         "name": "bylocus2",
-        "label": ""
+        "label": "Locus of control 2"
     },
     {
         "domain": {
@@ -1671,8 +1745,15 @@
         "label": "Plan to go to college after H.S.?"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "0": "Below Level 1",
+            "1": "At Level 1, but below Level 2 and 3",
+            "2": "At Level 1 and 2, but below Level 3",
+            "3": "Proficient at all three levels",
+            "8": "Missing data",
+            "9": "Did not complete test"
+        },
+        "type": "ordinal",
         "name": "by2xmpro",
         "label": "Overall math proficiency"
     },
@@ -1889,10 +1970,16 @@
         "label": "Sure to further education after H.S.?"
     },
     {
-        "domain": {},
+        "domain": {
+            "1": "Non-English Only",
+            "2": "Non-English Dominant",
+            "3": "English Dominant",
+            "4": "English Only",
+            "8": "Missing"
+        },
         "type": "nominal",
         "name": "byhmlang",
-        "label": ""
+        "label": "Home language background"
     },
     {
         "domain": {
@@ -1936,10 +2023,16 @@
         "label": "Armed Services Vocational Aptitude Battery (ASVAB)"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "72": "1972 or before",
+            "73": "1973",
+            "74": "1974",
+            "75": "1975 or after",
+            "98": "Missing"
+        },
+        "type": "ordinal",
         "name": "birthyr",
-        "label": ""
+        "label": "Year of birth"
     },
     {
         "domain": {
@@ -1995,10 +2088,21 @@
         "label": "Someone threatened to hurt me at school"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "02": "2",
+            "03": "3",
+            "04": "4",
+            "05": "5",
+            "06": "6",
+            "07": "7",
+            "08": "8",
+            "09": "9",
+            "10   ": "Ten or greater",
+            "98   ": "Missing"
+          },
+        "type": "ordinal",
         "name": "byfamsiz",
-        "label": "are:"
+        "label": "Family size"
     },
     {
         "domain": {
