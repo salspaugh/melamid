@@ -119,9 +119,9 @@
     {
         "domain": {
             "1": "VERY SURE WILL",
-            "3": "PROBABLY WON^T",
+            "3": "PROBABLY WON'T",
             "2": "PROBABLY WILL",
-            "4": "VERY SURE WON^T",
+            "4": "VERY SURE WON'T",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
@@ -161,7 +161,7 @@
     {
         "domain": {
             "1": "1-5 CIGARETTES",
-            "0": "I DON^T SMOKE",
+            "0": "I DON'T SMOKE",
             "3": "MT 1/2,LT 2 PACKS",
             "2": "ABOUT 1/2 PACK",
             "4": "2 PACKS OR MORE",
@@ -430,7 +430,7 @@
             "02": "2 YEARS",
             "03": "3 YEARS",
             "01": "1 YEAR",
-            "06": "DON^T KNOW",
+            "06": "DON'T KNOW",
             "04": "4 YEARS",
             "05": "MORE THAN 4 YEARS",
             "98": "{MISSING}",
@@ -491,7 +491,7 @@
             "07": "PH.D., M.D., ETC.",
             "04": "COLLEGE LT 4 YRS",
             "05": "GRADUATED COLLEGE",
-            "08": "DON^T KNOW",
+            "08": "DON'T KNOW",
             "98": "{MISSING}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
@@ -509,7 +509,7 @@
             "07": "PH.D., M.D., ETC.",
             "04": "COLLEGE LT 4 YRS",
             "05": "GRADUATED COLLEGE",
-            "08": "DON^T KNOW",
+            "08": "DON'T KNOW",
             "98": "{MISSING}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
@@ -531,9 +531,9 @@
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -559,7 +559,7 @@
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "12": "SPECIALIZED H.S PROG",
-            "14": "I DON^T KNOW",
+            "14": "I DON'T KNOW",
             "11": "TRADE OCCUPATIONS",
             "15": "NEVER ATTENDED HS",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
@@ -604,7 +604,7 @@
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "12": "OTHER",
-            "14": "DON^T KNOW",
+            "14": "DON'T KNOW",
             "11": "SERVICE WORKER",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
             "10": "SCIENCE/ENGINEERING"
@@ -654,7 +654,7 @@
             "26": "",
             "1": "YES,IDO",
             "3": "NO, BUT EXPECTING",
-            "2": "NO, I DON^T",
+            "2": "NO, I DON'T",
             "7": "{REFUSAL}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
@@ -679,7 +679,7 @@
     {
         "domain": {
             "98": "{MISSING}",
-            "00": "I DON^T SMOKE AT ALL", 
+            "00": "I DON'T SMOKE AT ALL", 
             "01": "< 1 CIGARETTE A DAY", 
             "02": "1-5 CIGARETTES A DAY", 
             "03": "ABOUT 1/2 PACK A DAY",
@@ -895,11 +895,11 @@
             "17": "NEVER WORKED",
             "16": "TECHNICAL",
             "19": "STUDENT",
-            "18": "DON^T KNOW"
+            "18": "DON'T KNOW"
         },
         "type": "nominal",
         "name": "bys4occ",
-        "label": "Mother/female guardian^s occupation"
+        "label": "Mother/female guardian's occupation"
     },
     {
         "domain": {
@@ -931,7 +931,7 @@
     },
     {
         "domain": {
-            "00": "DON^T WATCH TV", 
+            "00": "DON'T WATCH TV", 
             "01": "LT 1 HOUR A DAY", 
             "02": "1-2 HOURS",
             "03": "2-3 HOURS",
@@ -960,9 +960,9 @@
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -975,7 +975,7 @@
     },
     {
         "domain": {
-            "00": "DON^T WATCH TV", 
+            "00": "DON'T WATCH TV", 
             "01": "LT 1 HOUR A DAY", 
             "02": "1-2 HOURS",
             "03": "2-3 HOURS",
@@ -1003,9 +1003,9 @@
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -1089,7 +1089,7 @@
             "1": "YES",
             "3": "NO",
             "2": "MAYBE",
-            "4": "DON^T KNOW",
+            "4": "DON'T KNOW",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
@@ -1239,11 +1239,11 @@
             "17": "NEVER WORKED",
             "16": "TECHNICAL",
             "19": "STUDENT",
-            "18": "DON^T KNOW"
+            "18": "DON'T KNOW"
         },
         "type": "nominal",
         "name": "bys7occ",
-        "label": "Father/male guardian^s occupation"
+        "label": "Father/male guardian's occupation"
     },
     {
         "domain": {},
@@ -1278,7 +1278,7 @@
             "1": "YES/VERY SURE GRAD",
             "3": "PROBABLY NOT",
             "2": "PROBABLY",
-            "4": "NO/VERY SURE I WON^T",
+            "4": "NO/VERY SURE I WON'T",
             "7": "{REFUSAL}",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -1559,7 +1559,7 @@
         },
         "type": "nominal",
         "name": "bys2a",
-        "label": "IS MOTHER/FEMALE GUARDIAN LIVING"
+        "label": "Is mother/female guardian living?"
     },
     {
         "domain": {
@@ -1585,7 +1585,7 @@
         },
         "type": "nominal",
         "name": "bys83g",
-        "label": "FOUR H CLUB"
+        "label": "Four H Club"
     },
     {
         "domain": {
@@ -1604,13 +1604,13 @@
         "domain": {},
         "type": "nominal",
         "name": "bylocus1",
-        "label": "was designed to be as comparable as possible with HS&B and NLS-72 data. Locus of control items are BYS44B, BYS44C, BYS44F, BYS44G, BYS44K, and BYS44M. Three of these items are comparable to HS&B and NLS-72 items. They are BYS44C, BYS44F, and BYS44G. Note that while these are comparable, they are not always identical."
+        "label": ""
     },
     {
         "domain": {},
         "type": "nominal",
         "name": "bylocus2",
-        "label": "is the composite of the locus of control items BYS44B, BYS44C, BYS44F, BYS44G, BYS44K, and BYS44M. BYS44K is a reverse scoring item so the values were reversed before performing computations. Each of these six items was standardized separately to a mean of zero and a standard deviation of 1 using BYQWT. All nonmissing components were averaged. Any student missing all components was assigned a missing value (8). The actual range for BYLOCUS2 is -3.01 through 1.52, from low to high control; 99.98 indicates missing. -------------------------------"
+        "label": ""
     },
     {
         "domain": {
@@ -1637,30 +1637,30 @@
     },
     {
         "domain": {
-            "02": "TWO",
-            "03": "THREE",
             "00": "NONE",
             "01": "ONE",
-            "06": "SIX OR MORE",
+            "02": "TWO",
+            "03": "THREE",
             "04": "FOUR",
             "05": "FIVE",
+            "06": "SIX OR MORE",
             "98": "{MISSING}",
             "4": "",
             "(MARK": "ONE)",
             "96": "{MULTIPLE RESPNSE}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys32",
-        "label": "NUMBER OF SIBLINGS R HAS"
+        "label": "Number of siblings?"
     },
     {
         "domain": {
             "24": "",
-            "1": "NO,DON^T PLN COLLEGE",
+            "1": "NO,DON'T PLN COLLEGE",
             "3": "YES, AFTER ONE YEAR",
             "2": "YES, RIGHT AFTER H.S",
-            "5": "DON^T KNOW",
+            "5": "DON'T KNOW",
             "4": "YES, AFTER OVER A YR",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -1668,28 +1668,32 @@
         },
         "type": "nominal",
         "name": "f1s51",
-        "label": "DOES R PLAN TO GO TO COLLEGE AFTER H.S."
+        "label": "Plan to go to college after H.S.?"
     },
     {
         "domain": {},
         "type": "nominal",
         "name": "by2xmpro",
-        "label": "OVERALL MATH PROFICIENCY"
+        "label": "Overall math proficiency"
     },
     {
         "domain": {
-            "03": "HALFAANDHALFB 04 MOSTLY B^S",
-            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
-            "07": "HALFCANDHALFD 08 MOSTLY D^S",
-            "10": "CLASSES NOT GRADED",
+            "01": "NOT TAKING SUBJECT", 
+            "02": "MOSTLY A'S",
+            "03": "HALF A AND HALF B", 
+            "04": "MOSTLY B'S",
+            "05": "HALF B AND HALF C",
+            "06": "MOSTLY C'S",
+            "07": "HALF C AND HALF D", 
+            "08": "MOSTLY D'S",
             "09": "MOSTLY BELOW D",
+            "10": "CLASSES NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
-            "05": "HALFBANDHALFC 06 MOSTLY C^S",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s39d",
         "label": "Science"
     },
@@ -1704,58 +1708,70 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s64g",
         "label": "You will stay in good health most of the time?"
     },
     {
         "domain": {
-            "03": "HALFAANDHALFB 04 MOSTLY B^S",
-            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
-            "07": "HALFCANDHALFD 08 MOSTLY D^S",
-            "10": "CLASSES NOT GRADED",
+            "01": "NOT TAKING SUBJECT", 
+            "02": "MOSTLY A'S",
+            "03": "HALF A AND HALF B", 
+            "04": "MOSTLY B'S",
+            "05": "HALF B AND HALF C",
+            "06": "MOSTLY C'S",
+            "07": "HALF C AND HALF D", 
+            "08": "MOSTLY D'S",
             "09": "MOSTLY BELOW D",
+            "10": "CLASSES NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
-            "05": "HALFBANDHALFC 06 MOSTLY C^S",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s39a",
         "label": "Math"
     },
     {
         "domain": {
-            "03": "HALFAANDHALFB 04 MOSTLY B^S",
-            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
-            "07": "HALFCANDHALFD 08 MOSTLY D^S",
-            "10": "CLASSES NOT GRADED",
+            "01": "NOT TAKING SUBJECT", 
+            "02": "MOSTLY A'S",
+            "03": "HALF A AND HALF B", 
+            "04": "MOSTLY B'S",
+            "05": "HALF B AND HALF C",
+            "06": "MOSTLY C'S",
+            "07": "HALF C AND HALF D", 
+            "08": "MOSTLY D'S",
             "09": "MOSTLY BELOW D",
+            "10": "CLASSES NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
-            "05": "HALFBANDHALFC 06 MOSTLY C^S",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s39b",
         "label": "English"
     },
     {
         "domain": {
-            "03": "HALFAANDHALFB 04 MOSTLY B^S",
-            "01": "NOT TAKING SUBJECT 02 MOSTLY A^S",
-            "07": "HALFCANDHALFD 08 MOSTLY D^S",
-            "10": "CLASSES NOT GRADED",
+            "01": "NOT TAKING SUBJECT", 
+            "02": "MOSTLY A'S",
+            "03": "HALF A AND HALF B", 
+            "04": "MOSTLY B'S",
+            "05": "HALF B AND HALF C",
+            "06": "MOSTLY C'S",
+            "07": "HALF C AND HALF D", 
+            "08": "MOSTLY D'S",
             "09": "MOSTLY BELOW D",
+            "10": "CLASSES NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
-            "05": "HALFBANDHALFC 06 MOSTLY C^S",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s39c",
         "label": "History"
     },
@@ -1768,16 +1784,16 @@
             "07": "FINISH COLLEGE",
             "04": "2+ YRS TRADE SCHOOL",
             "05": "< 2YRS OF COLLEGE",
-            "08": "MASTER^S DEGREE",
+            "08": "MASTER'S DEGREE",
             "09": "PH.D., M.D.",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s49",
-        "label": "HOW FAR IN SCHOOL R THINKS HE WILL GET"
+        "label": "How far in school will you get?"
     },
     {
         "domain": {
@@ -1813,7 +1829,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62i",
         "label": "I feel useless at times"
     },
@@ -1827,7 +1843,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62j",
         "label": "At times, I think I am no good at all"
     },
@@ -1838,50 +1854,51 @@
             "99.98": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "quantitative",
         "name": "by2xrstd",
-        "label": "READING STANDARDIZED SCORE"
+        "label": "Reading standardized score"
     },
     {
         "domain": {
-            "1": "1HRORLESSPERWK 2 2 HOURS",
             "0": "NONE",
+            "1": "1 HR OR LESS PER WK",
+            "2": "2 HOURS",
             "3": "3 HOURS",
-            "5": "6HRSORMOREPERWK",
             "4": "4-5 HOURS",
+            "5": "6 HRS OR MORE PER WK",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys80",
-        "label": "HOW MUCH READING DO YOU DO ON YOUR OWN"
+        "label": "How much reading do you do on your own?"
     },
     {
         "domain": {
-            "1": "VERY SURE I^LL GO",
-            "3": "PROBABLY WON^T GO",
+            "1": "VERY SURE I'LL GO",
+            "3": "PROBABLY WON'T GO",
             "2": "PROBABLY WILL GO",
-            "4": "VERY SURE I WON^T GO",
+            "4": "VERY SURE I WON'T GO",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s18b",
-        "label": "R SURE TO FURTHER EDUCATION AFTER H.S"
+        "label": "Sure to further education after H.S.?"
     },
     {
         "domain": {},
         "type": "nominal",
         "name": "byhmlang",
-        "label": "characterizes primary language use and dominant language use in the home by differentiating between English or non-English languages. The classification was made from the student questionnaire data."
+        "label": ""
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -1905,9 +1922,9 @@
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -1934,7 +1951,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62a",
         "label": "I feel good about myself"
     },
@@ -1947,7 +1964,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys57a",
         "label": "I had something stolen from me at school"
     },
@@ -1960,7 +1977,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys57b",
         "label": "Someone offered to sell me drugs at school"
     },
@@ -1973,7 +1990,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys57c",
         "label": "Someone threatened to hurt me at school"
     },
@@ -1994,7 +2011,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10a",
         "label": "I was late for school"
     },
@@ -2008,7 +2025,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62c",
         "label": "In my life, good luck is more important than hard work for success"
     },
@@ -2022,7 +2039,7 @@
         },
         "type": "nominal",
         "name": "bys12",
-        "label": "SEX OF RESPONDENT"
+        "label": "Sex of respondent"
     },
     {
         "domain": {
@@ -2048,56 +2065,56 @@
         },
         "type": "nominal",
         "name": "bys18",
-        "label": "1ST LANG R LEARNED TO SPEAK AS A CHILD"
+        "label": "1st language learned to speak as a child?"
     },
     {
         "domain": {
+            "01": "MOSTLY AS",
             "02": "MOSTLY BS",
             "03": "MOSTLY CS",
-            "01": "MOSTLY AS",
-            "06": "NOT GRADED",
             "04": "MOSTLY DS",
             "05": "MOSTLY BELOW D",
+            "06": "NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys81c",
-        "label": "SCIENCE"
+        "label": "Science"
     },
     {
         "domain": {
+            "01": "MOSTLY AS",
             "02": "MOSTLY BS",
             "03": "MOSTLY CS",
-            "01": "MOSTLY AS",
-            "06": "NOT GRADED",
             "04": "MOSTLY DS",
             "05": "MOSTLY BELOW D",
+            "06": "NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys81b",
-        "label": "MATHEMATICS"
+        "label": "Mathematics"
     },
     {
         "domain": {
+            "01": "MOSTLY AS",
             "02": "MOSTLY BS",
             "03": "MOSTLY CS",
-            "01": "MOSTLY AS",
-            "06": "NOT GRADED",
             "04": "MOSTLY DS",
             "05": "MOSTLY BELOW D",
+            "06": "NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "97": "{REFUSAL}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys81a",
         "label": "ENGLISH"
     },
@@ -2111,18 +2128,18 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62f",
         "label": "Every time I try to get ahead, something or somebody stops me"
     },
     {
         "domain": {
+            "01": "MOSTLY AS",
             "02": "MOSTLY BS",
             "03": "MOSTLY CS",
-            "01": "MOSTLY AS",
-            "06": "NOT GRADED",
             "04": "MOSTLY DS",
             "05": "MOSTLY BELOW D",
+            "06": "NOT GRADED",
             "98": "{MISSING}",
             "96": "{MULTIPLE RESPNSE}",
             "97": "{REFUSAL}",
@@ -2130,7 +2147,7 @@
         },
         "type": "nominal",
         "name": "bys81d",
-        "label": "SOCIAL STUDIES"
+        "label": "Social Studies"
     },
     {
         "domain": {
@@ -2142,7 +2159,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys38d",
         "label": "Limit the amount of time for going out with friends on school nights"
     },
@@ -2156,7 +2173,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys38c",
         "label": "Limit the amount of time you can spend watching TV"
     },
@@ -2170,7 +2187,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys38b",
         "label": "Require you to do work or chores around the home"
     },
@@ -2184,22 +2201,22 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys38a",
         "label": "Check on whether you have done your homework"
     },
     {
         "domain": {
-            "1": "1-2 TIMES",
             "0": "NEVER",
-            "3": "7-9 TIMES",
+            "1": "1-2 TIMES",
             "2": "3-6 TIMES",
+            "3": "7-9 TIMES",
             "4": "OVER 10 TIMES",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10c",
         "label": "I got in trouble for not following school rules"
     },
@@ -2400,18 +2417,18 @@
     },
     {
         "domain": {
-            "02": "TWO RISK FACTORS",
-            "03": "THREE RISK FACTORS",
             "00": "NO RISK FACTORS",
             "01": "ONE RISK FACTOR",
-            "06": "SIX RISK FACTORS",
+            "02": "TWO RISK FACTORS",
+            "03": "THREE RISK FACTORS",
             "04": "FOUR RISK FACTORS",
             "05": "FIVE RISK FACTORS",
+            "06": "SIX RISK FACTORS",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
         "type": "nominal",
         "name": "byrisk",
-        "label": "BY RISK OF DROPPING OUT OF SCHOOL"
+        "label": "Risk of dropping out of school"
     },
     {
         "domain": {
@@ -2427,18 +2444,18 @@
     },
     {
         "domain": {
-            "1": "1OR2DAYS",
             "0": "NONE",
-            "3": "5TO10DAYS",
-            "2": "3OR4DAYS",
+            "1": "1 OR 2 DAYS",
+            "2": "3 OR 4 DAYS",
+            "3": "5 TO 10 DAYS",
             "4": "MORE THAN 10 DAYS",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys77",
-        "label": "# OF TIMES LATE FOR SCHOOL PAST 4 WEEKS"
+        "label": "Number of times late for school in past 4 weeks"
     },
     {
         "domain": {},
@@ -2457,7 +2474,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10b",
         "label": "I cut or skipped classes"
     },
@@ -2471,7 +2488,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62h",
         "label": "On the whole, I am satisfied with myself"
     },
@@ -2498,12 +2515,12 @@
             "14": "SCHOOL TEACHER",
             "17": "NOT PLANNING TO WORK",
             "16": "TECHNICAL",
-            "19": "DON^T KNOW",
+            "19": "DON'T KNOW",
             "18": "OTHER"
         },
         "type": "nominal",
         "name": "f1s53a",
-        "label": "OCCUPATION R EXPECTS TO HAVE AFTER H.S"
+        "label": "Occupation expected to have after H.S."
     },
     {
         "domain": {
@@ -2528,12 +2545,12 @@
             "14": "SCHOOL TEACHER",
             "17": "NOT PLANNING TO WORK",
             "16": "TECHNICAL",
-            "19": "DON^T KNOW",
+            "19": "DON'T KNOW",
             "18": "OTHER"
         },
         "type": "nominal",
         "name": "f1s53b",
-        "label": "OCCUPATION R EXPECTS TO HAVE AT AGE 30"
+        "label": "Occupation expected to have at age 30"
     },
     {
         "domain": {
@@ -2545,7 +2562,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62k",
         "label": "When I make plans, I am almost certain I can make them work"
     },
@@ -2559,7 +2576,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62l",
         "label": "I feel I do not have much to be proud of"
     },
@@ -2573,7 +2590,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62m",
         "label": "Chance and luck are very important for what happens in my life"
     },
@@ -2587,7 +2604,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62n",
         "label": "I feel emotionally empty most of the time"
     },
@@ -2619,7 +2636,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62b",
         "label": "I don't have enough control over the direction my life is taking"
     },
@@ -2639,7 +2656,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62d",
         "label": "I feel I am a person of worth, the equal of other people"
     },
@@ -2653,7 +2670,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s62e",
         "label": "I am able to do things as well as most other people"
     },
@@ -2664,9 +2681,9 @@
             "99.98": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "quantitative",
         "name": "by2xhstd",
-        "label": "HISTORY/CIT/GEOG STANDARDIZED SCORE"
+        "label": "History/Cit/Geog standardized score"
     },
     {
         "domain": {
@@ -2686,7 +2703,7 @@
         "domain": {},
         "type": "nominal",
         "name": "bypsepln",
-        "label": "characterizes the postsecondary school plans of the student and was taken directly from BYS45. The values for BYPSEPLN are:"
+        "label": ""
     },
     {
         "domain": {
@@ -2701,7 +2718,7 @@
         },
         "type": "nominal",
         "name": "bys7a",
-        "label": "FATHER/MALE GUARDIAN EMPLOYMENT STATUS"
+        "label": "Father/male guardian employment status"
     },
     {
         "domain": {
@@ -2725,7 +2742,7 @@
         },
         "type": "nominal",
         "name": "bys74",
-        "label": "EVER HELD BACK A GRADE IN SCHOOL"
+        "label": "Ever held back a grade in school?"
     },
     {
         "domain": {
@@ -2738,7 +2755,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10e",
         "label": "I was suspended or put on probation from school"
     },
@@ -2769,7 +2786,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59j",
         "label": "Most of my teachers really listen to what I have to say"
     },
@@ -2783,7 +2800,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59k",
         "label": "I don't feel safe at this school"
     },
@@ -2797,7 +2814,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59h",
         "label": "When I work hard on schoolwork, my teachers praise my effort"
     },
@@ -2811,7 +2828,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59i",
         "label": "In class I often feel 'put down' by my teachers"
     },
@@ -2847,7 +2864,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59l",
         "label": "Disruptions by other students get in the way of my learning"
     },
@@ -2861,7 +2878,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59m",
         "label": "Misbehaving students often get away with it"
     },
@@ -2875,7 +2892,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59b",
         "label": "There is real school spirit"
     },
@@ -2889,7 +2906,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59c",
         "label": "Rules for behavior are strict"
     },
@@ -2903,7 +2920,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59a",
         "label": "Students get along well with teachers"
     },
@@ -2917,7 +2934,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59f",
         "label": "The teaching is good"
     },
@@ -2931,7 +2948,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59g",
         "label": "Teachers are interested in students"
     },
@@ -2945,7 +2962,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59d",
         "label": "Discipline is fair"
     },
@@ -2959,19 +2976,20 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys59e",
         "label": "Other students often disrupt class"
     },
     {
         "domain": {
             "1": "NOTATALL",
+            "2": "ONCE OR TWICE",
+            "3": "3 OR MORE TIMES",
             "6": "{MULTIPLE RESPNSE}",
-            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys36a",
         "label": "Selecting courses or programs at school"
     },
@@ -2979,11 +2997,12 @@
         "domain": {
             "1": "NOTATALL",
             "6": "{MULTIPLE RESPNSE}",
-            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
+            "2": "ONCE OR TWICE", 
+            "3": "3 OR MORE TIMES",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys36c",
         "label": "Things you've studied in class"
     },
@@ -2991,11 +3010,12 @@
         "domain": {
             "1": "NOTATALL",
             "6": "{MULTIPLE RESPNSE}",
-            "2": "ONCE OR TWICE 3 3 OR MORE TIMES",
+            "2": "ONCE OR TWICE",
+            "3": "3 OR MORE TIMES",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys36b",
         "label": "School activities or events of particular interest to you"
     },
@@ -3022,7 +3042,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s64h",
         "label": "You will be able to live wherever you want in the country?"
     },
@@ -3035,7 +3055,7 @@
         },
         "type": "nominal",
         "name": "by2xsstd",
-        "label": "SCIENCE STANDARDIZED SCORE"
+        "label": "Science standardized score"
     },
     {
         "domain": {
@@ -3048,7 +3068,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44l",
         "label": "I feel I do not have much to be proud of"
     },
@@ -3063,7 +3083,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44m",
         "label": "Chance and luck are very important for what happens in my life"
     },
@@ -3076,7 +3096,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys56e",
         "label": "Other students in class see you as a trouble-maker"
     },
@@ -3089,7 +3109,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys56d",
         "label": "Other students in class see you as important"
     },
@@ -3104,7 +3124,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44h",
         "label": "On the whole, I am satisfied with myself"
     },
@@ -3119,7 +3139,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44i",
         "label": "I certainly feel useless at times"
     },
@@ -3134,7 +3154,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44j",
         "label": "At times I think I am no good at all"
     },
@@ -3149,7 +3169,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44k",
         "label": "When I make plans, I am almost certain I can make them work"
     },
@@ -3164,7 +3184,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44d",
         "label": "I feel I am a person of worth, the equal of other people"
     },
@@ -3179,7 +3199,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44e",
         "label": "I am able to do things as well as most other people"
     },
@@ -3194,7 +3214,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44f",
         "label": "Every time I try to get ahead, something or somebody stops me"
     },
@@ -3209,7 +3229,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44g",
         "label": "My plans hardly ever work out, so planning only makes me unhappy"
     },
@@ -3236,7 +3256,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44a",
         "label": "I feel good about myself"
     },
@@ -3251,7 +3271,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44b",
         "label": "I don't have enough control over the direction my life is taking"
     },
@@ -3266,7 +3286,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys44c",
         "label": "In my life, good luck is more important than hard work for success"
     },
@@ -3274,7 +3294,7 @@
         "domain": {},
         "type": "nominal",
         "name": "g8lunch",
-        "label": "categorizes the percentage of free or reduced price lunch at the school calculated from the school questionnaire. It was constructed by dividing BYSC16A by BYSC2, multiplying by 100, rounding to the nearest whole number and coding the result. If the school questionnaire was missing or if BYSC16A was missing, G8LUNCH was set to missing. The value for G8LUNCH are:"
+        "label": ""
     },
     {
         "domain": {
@@ -3307,7 +3327,7 @@
         "domain": {},
         "type": "nominal",
         "name": "bylep",
-        "label": "specifies whether the student had Limited English Proficiency. It was"
+        "label": ""
     },
     {
         "domain": {
@@ -3331,7 +3351,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10d",
         "label": "I was put on an in-school suspension"
     },
@@ -3351,13 +3371,13 @@
             "1": "HIGH",
             "3": "LOW",
             "2": "MIDDLE",
-            "5": "I DON^T KNOW",
-            "4": "AREN^T GROUPED",
+            "5": "I DON'T KNOW",
+            "4": "AREN'T GROUPED",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys60b",
         "label": "Science"
     },
@@ -3366,13 +3386,13 @@
             "1": "HIGH",
             "3": "LOW",
             "2": "MIDDLE",
-            "5": "I DON^T KNOW",
-            "4": "AREN^T GROUPED",
+            "5": "I DON'T KNOW",
+            "4": "AREN'T GROUPED",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys60c",
         "label": "English"
     },
@@ -3385,7 +3405,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys56b",
         "label": "Other students in class see you as athletic"
     },
@@ -3394,13 +3414,13 @@
             "1": "HIGH",
             "3": "LOW",
             "2": "MIDDLE",
-            "5": "I DON^T KNOW",
-            "4": "AREN^T GROUPED",
+            "5": "I DON'T KNOW",
+            "4": "AREN'T GROUPED",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys60a",
         "label": "Mathematics"
     },
@@ -3409,20 +3429,20 @@
             "1": "HIGH",
             "3": "LOW",
             "2": "MIDDLE",
-            "5": "I DON^T KNOW",
-            "4": "AREN^T GROUPED",
+            "5": "I DON'T KNOW",
+            "4": "AREN'T GROUPED",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys60d",
-        "label": "Social Studies"
+        "label": "Social studies"
     },
     {
         "domain": {
             "1": "YES",
-            "3": "DON^T KNOW",
+            "3": "DON'T KNOW",
             "2": "NO",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -3435,7 +3455,7 @@
     {
         "domain": {
             "1": "YES",
-            "3": "DON^T KNOW",
+            "3": "DON'T KNOW",
             "2": "NO",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -3448,7 +3468,7 @@
     {
         "domain": {
             "1": "YES",
-            "3": "DON^T KNOW",
+            "3": "DON'T KNOW",
             "2": "NO",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -3469,14 +3489,14 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "f1s10f",
         "label": "I was transferred to another school for disciplinary reasons"
     },
     {
         "domain": {
             "1": "YES",
-            "3": "DON^T KNOW",
+            "3": "DON'T KNOW",
             "2": "NO",
             "6": "{MULTIPLE RESPNSE}",
             "8": "{MISSING}",
@@ -3497,7 +3517,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys27c",
         "label": "How well do you read English?"
     },
@@ -3512,7 +3532,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys27b",
         "label": "How well do you speak English?"
     },
@@ -3527,15 +3547,15 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys27a",
         "label": "How well do you understand spoken English?"
     },
     {
         "domain": {
-            "1": "HAVEN^T THOUGHT ABT",
+            "1": "HAVEN'T THOUGHT ABT",
             "3": "YES, THIS YEAR",
-            "2": "DON^T PLAN TO TAKE",
+            "2": "DON'T PLAN TO TAKE",
             "5": "YES, IN 12TH GRADE",
             "4": "YES, NEXT YEAR",
             "6": "{MULTIPLE RESPNSE}",
@@ -3557,7 +3577,7 @@
             "8": "{MISSING}",
             "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
         },
-        "type": "nominal",
+        "type": "ordinal",
         "name": "bys27d",
         "label": "How well do you write English?"
     }
