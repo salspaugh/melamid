@@ -2562,10 +2562,14 @@
         "label": "Number of times late for school in past 4 weeks"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "{cont}": "{-2.97-2.56}",
+            "99.998": "{MISSING}",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}"
+        },
+        "type": "quantitative",
         "name": "byses",
-        "label": ""
+        "label": "Socio-economic composite"
     },
     {
         "domain": {
@@ -2713,10 +2717,22 @@
         "label": "I feel emotionally empty most of the time"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "00": "NONE",
+            "01": "1 HOUR OR LESS/WEEK",
+            "02": "2 HOURS",
+            "03": "3 HOURS",
+            "04": "4-5 HOURS",
+            "05": "6-7 HOURS",
+            "06": "8-9 HOURS",
+            "07": "10HRS OR MORE A WEEK",
+            "{blank}": "{NONR/NOT IN SAMPLE THIS WAVE}",
+            "96": "{MULTIPLE RESPNSE}",
+            "98": "{MISSING}"
+        },
+        "type": "ordinal",
         "name": "f1s43",
-        "label": ""
+        "label": "Reading done per week on own outside school"
     },
     {
         "domain": {
@@ -2745,10 +2761,27 @@
         "label": "I don't have enough control over the direction my life is taking"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "01": "None",
+            "02": "Less than $1,000",
+            "03": "$1,000-$2,999",
+            "04": "$3,000-$4,999",
+            "05": "$5,000-$7,499",
+            "06": "$7,500-$9,999",
+            "07": "$10,000-$14,999",
+            "08": "$15,000-$19,999",
+            "09": "$20,000-$24,999",
+            "10": "$25,000-$34,999",
+            "11": "$35,000-$49,999",
+            "12": "$50,000-$74,999",
+            "13": "$75,000-$99,999",
+            "14": "$100,000-$199,999",
+            "15": "$200,000 or more",
+            "98": "Missing"
+        },
+        "type": "ordinal",
         "name": "byfaminc",
-        "label": "categorizes the family income.  It was taken directly from BYP80.  The"
+        "label": "Yearly family income"
     },
     {
         "domain": {
@@ -2804,10 +2837,18 @@
         "label": "My plans hardly ever work out, so planning only makes me unhappy"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "01": "Won't finish high school",
+            "02": "Will graduate from high school but won't go further",
+            "03": "Will go to vocational, trade, or business school after",
+            "04": "Will attend college",
+            "05": "Will graduate from college",
+            "06": "Will attend a higher level of school after graduating",
+            "98": "Missing"
+        },
+        "type": "ordinal",
         "name": "bypsepln",
-        "label": ""
+        "label": "Post-secondary education plans"
     },
     {
         "domain": {
@@ -2862,12 +2903,6 @@
         "type": "ordinal",
         "name": "f1s10e",
         "label": "I was suspended or put on probation from school"
-    },
-    {
-        "domain": {},
-        "type": "nominal",
-        "name": "id",
-        "label": ""
     },
     {
         "domain": {
@@ -3395,10 +3430,20 @@
         "label": "In my life, good luck is more important than hard work for success"
     },
     {
-        "domain": {},
-        "type": "nominal",
+        "domain": {
+            "000": "None",
+            "001": "1-5%",
+            "002": "6-10%",
+            "003": "11-20%",
+            "004": "21-30%",
+            "005": "31-50%",
+            "006": "51-75%",
+            "007": "76-100%",
+            "998": "Missing"
+        },
+        "type": "ordinal",
         "name": "g8lunch",
-        "label": ""
+        "label": "Percent free lunch in school"
     },
     {
         "domain": {
@@ -3422,16 +3467,26 @@
         "label": "Participated in a science or math fair"
     },
     {
-        "domain": {},
+        "domain": {
+            "1": "Northeast",
+            "2": "North Central",
+            "3": "South",
+            "4": "West",
+            "8": "Missing"
+        },
         "type": "nominal",
         "name": "g8regon",
-        "label": "indicates in which of the four U.S. Census regions the school is located."
+        "label": "Composite geographic region of school"
     },
     {
-        "domain": {},
+        "domain": {
+            "0": "Not reported to be Limited English Proficient",
+            "1": "Reported as Limited English Proficient",
+            "8": "Missing"
+        },
         "type": "nominal",
         "name": "bylep",
-        "label": ""
+        "label": "Limited English proficiency composite"
     },
     {
         "domain": {
