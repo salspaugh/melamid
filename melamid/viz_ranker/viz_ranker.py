@@ -107,7 +107,8 @@ class SeparatingHyperPlane(object):
         self.intercept = 0.5 * (self.p1 + self.p2)
 
     def consistent_with(self, p):
-        return np.dot(self.normal, (np.array(p) - self.intercept)) >= 0
+        dot_product = np.dot(self.normal, np.array(p) - self.intercept)
+        return dot_product > 0 or np.isclose(dot_product, 0.0)
 
     def draw(self, show=False):
         # Assume 2D, so we can draw lines
