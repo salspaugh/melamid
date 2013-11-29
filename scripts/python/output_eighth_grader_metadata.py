@@ -1,6 +1,4 @@
 
-from sqlite3 import connect
-
 import json
 
 class Column(object):

@@ -1,10 +1,14 @@
 
-import math
+from json import load
+from math import sqrt
+from sqlite3 import connect
 
 class Table(object):
 
-    def __init__(self):
+    def __init__(self, x, y):
         self.counts = {}
+        self.x = x
+        self.y = y
         self.row_totals = {}
         self.col_totals = {}
         self.grand_total = 0.
@@ -32,25 +36,95 @@ class Table(object):
         self.init(x, y)
         self.counts[x][y] = value
 
-def read_domains(db, table):
-    pass
+    def _flesh_out_counts(self):
+        for (row, cols) in self.counts.iteritems():
+            for col in self.col_totals.keys():
+                if not col in cols:
+                    self.counts[row][col] = 0.
 
-def compute_pairings(dbtab):
-    pass
+    def __repr__(self):
+        self._flesh_out_counts()
+        s = ""
+        fixed = []
+        for (row, cols) in self.counts.iteritems():
+            fixed.append((row, sorted(cols.items(), key=lambda x: x[0])))
+        if not fixed:
+            return ""
+        num_cols = len(self.col_totals) + 1
+        cols = [x[0] for x in fixed[0][1]]
+        col_widths = [max([len(x[0])+1 for x in fixed])] + \
+                        [max([len(str(y))+1 for y in x])+1 for x in fixed[0][1]]
+        col_widths = "|".join(["{:<%d}"]*(num_cols)) % tuple(col_widths)
+        s = col_widths.format(*([""] + cols)) 
+        for row in fixed:
+            r = col_widths.format(*([row[0]] + [x[1] for x in row[1]]))
+            s = "\n".join([s, r])
+        return s
 
-def select_tuples(colx, coly, dbtab):
-    pass
+DEBUG = False
+def debug(s):
+    if DEBUG:
+        print s
 
-def compute_contingency_table(colx, coly, dbtab, domains):
-    table = Table()
-    tuples = select_tuples(colx, coly, dbtab)
+def compute_correlations(db, table, metadata):
+    domains = read_domains(metadata)
+    for (x, y) in compute_pairings(metadata):
+        contingency_table = compute_contingency_table(x, y, db, table, domains)
+        expected_table = compute_expected_table(contingency_table)
+        residuals = compute_residuals(contingency_table, expected_table)
+        output_residuals(x, y, residuals)
+
+def read_domains(metadata):
+    with open (metadata) as metadata:
+        metadata = load(metadata)
+        metadata = filter(lambda x: x["type"] != "quantitative", metadata)
+        names = [column["name"] for column in metadata]
+        domains = [column["domain"] for column in metadata]
+        metadata = dict(zip(names, domains))
+    return metadata
+
+def compute_pairings(metadata):
+    debug("Computing pairings.")
+    pairs = []
+    with open (metadata) as metadata:
+        metadata = load(metadata)
+        metadata = filter(lambda x: x["type"] != "quantitative", metadata)
+        for i in range(len(metadata)):
+            columni = metadata[i]
+            for j in range(i+1, len(metadata)):
+                columnj = metadata[j]
+                pairs.append((columni["name"], columnj["name"]))
+    return pairs
+
+def compute_contingency_table(colx, coly, db, table, domains):
+    debug("Computing contingency tables.")
+    contingency_table = Table(colx, coly)
+    tuples = select_tuples(colx, coly, db, table)
     for (x, y) in tuples:
-        if x in domains[x] and y in domains[y]:
-            table.increment(x, y)
-    return table
+        if x in domains[colx] and y in domains[coly] and \
+            valid(x, domains[colx]) and valid(y, domains[coly]):
+            contingency_table.increment(x, y)
+    return contingency_table
+
+def select_tuples(colx, coly, db, table):
+    debug("Selecting tuples.")
+    db = connect(db)
+    statement = "SELECT %s, %s FROM %s" % (colx, coly, table)
+    cursor = db.execute(statement)
+    return cursor.fetchall()
+
+def valid(value, domain):
+    label = domain[value].lower()
+    return not ((label.find("missing") > -1) or \
+        (label.find("not in sample this wave") > -1) or \
+        (label.find("test not comp") > -1) or \
+        (label.find("multiple respnse") > -1) or \
+        (label.find("legitimate skip") > -1) or \
+        (label.find("refusal") > -1))
 
 def compute_expected_table(contingency_table):
-    expected_table = Table()
+    debug("Computing expected tables.")
+    expected_table = Table(contingency_table.x, contingency_table.y)
     for (x, xcount) in contingency_table.row_totals.iteritems():
         for (y, ycount) in contingency_table.col_totals.iteritems():
             expected_value = xcount*ycount/contingency_table.grand_total
@@ -58,21 +132,29 @@ def compute_expected_table(contingency_table):
     return expected_table
 
 def compute_residuals(contingency_table, expected_table):
-    residual_table = Table()
+    debug("Computing residuals.")
+    residual_table = Table(contingency_table.x, contingency_table.y)
     for (x, y) in contingency_table.variables:
-        observed = contigency_table.counts[x][y]
+        observed = contingency_table.counts[x][y]
         expected = expected_table.counts[x][y]
-        residual_value = (observed - expected) / math.sqrt(observed)
+        residual_value = (observed - expected) / sqrt(observed)
         residual_table.set(x, y, residual_value)
     return residual_table 
 
 def output_residuals(x, y, residuals):
-    pass
+    print x, y
+    print residuals
+    print 
 
-def compute_correlations(dbtab):
-    domains = read_domains(dbtab)
-    for (x, y) in compute_pairings(dbtab):
-        contigency_table = compute_contingency_table(x, y, dbtab, domains)
-        expected_table = compute_expected_table(x, y)
-        residuals = compute_residuals(contigency_table, expected_table)
-        output_residuals(x, y, residuals)
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Compute categorical correlations for a data set.")
+    parser.add_argument("db", metavar="DATABASE",
+                        help="database containing the data set")
+    parser.add_argument("table", metavar="TABLE",
+                        help="table containing the data set")
+    parser.add_argument("metadata", metavar="METADATA",
+                        help="file containing the metadata")
+    
+    args = parser.parse_args()
+    compute_correlations(args.db, args.table, args.metadata) 
