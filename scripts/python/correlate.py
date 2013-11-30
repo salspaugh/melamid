@@ -1,7 +1,9 @@
 
 from json import load
 from math import sqrt
+from scipy.stats import chisquare
 from sqlite3 import connect
+from numpy import array
 
 class Table(object):
 
@@ -42,9 +44,29 @@ class Table(object):
                 if not col in cols:
                     self.counts[row][col] = 0.
 
-    def __repr__(self):
+    def array(self):
         self._flesh_out_counts()
+        fixed = []
+        for (row, cols) in self.counts.iteritems():
+            fixed.append((row, sorted(cols.items(), key=lambda x: x[0])))
+        fixed = sorted(fixed, key=lambda x: x[0])
+        counts = []
+        for (row, cols) in fixed:
+            for (col, count) in cols:
+                counts.append(count)
+        return array(counts)
+
+    def ddof(self):
+        num_cols = len(self.col_totals)
+        num_rows = len(self.row_totals)
+        k = num_cols * num_rows
+        dof = (num_cols - 1) * (num_rows - 1)
+        ddof = k - 1 - dof
+        return ddof
+
+    def __repr__(self):
         s = ""
+        self._flesh_out_counts()
         fixed = []
         for (row, cols) in self.counts.iteritems():
             fixed.append((row, sorted(cols.items(), key=lambda x: x[0])))
@@ -66,13 +88,16 @@ def debug(s):
     if DEBUG:
         print s
 
-def compute_correlations(db, table, metadata):
+def compute_correlations(db, table, metadata, print_residuals):
     domains = read_domains(metadata)
     for (x, y) in compute_pairings(metadata):
         contingency_table = compute_contingency_table(x, y, db, table, domains)
         expected_table = compute_expected_table(contingency_table)
         residuals = compute_residuals(contingency_table, expected_table)
-        output_residuals(x, y, residuals)
+        if print_residuals:
+            output_residuals(x, y, residuals)
+        else:
+            output_chisquare(x, y, contingency_table, expected_table)
 
 def read_domains(metadata):
     with open (metadata) as metadata:
@@ -146,6 +171,11 @@ def output_residuals(x, y, residuals):
     print residuals
     print 
 
+def output_chisquare(x, y, observed, expected):
+    print x, y
+    print chisquare(observed.array(), f_exp=expected.array(), ddof=observed.ddof())
+    print
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Compute categorical correlations for a data set.")
@@ -155,6 +185,8 @@ if __name__ == "__main__":
                         help="table containing the data set")
     parser.add_argument("metadata", metavar="METADATA",
                         help="file containing the metadata")
+    parser.add_argument("--residuals", dest="residuals", action="store_true",
+                        help="if used, prints out residuals, otherwise, chi-square")
     
     args = parser.parse_args()
-    compute_correlations(args.db, args.table, args.metadata) 
+    compute_correlations(args.db, args.table, args.metadata, args.residuals) 
