@@ -2,16 +2,6 @@ import itertools
 import numpy as np
 import pylab as plt
 
-DIMENSION = 1000
-NPOINTS = 100
-
-def get_gt_comparison(p1, p2, ground_truth=None):
-    if ground_truth == None:
-        ground_truth = GROUND_TRUTH
-    p1_dist = np.linalg.norm(np.array(p1) - ground_truth)
-    p2_dist = np.linalg.norm(np.array(p2) - ground_truth)
-    return p1 if p1_dist < p2_dist else p2
-
 class VizRanker(object):
     def __init__(self, viz_list):
         self.viz_list = viz_list # list of d-dimensional featurized visualizations
@@ -20,6 +10,7 @@ class VizRanker(object):
         self.gt_comparisons = {}
         self.trained = False
         self.total_cmps = len(viz_list) * (len(viz_list) - 1) / 2.0
+        self.dimension = len(self.viz_list[0])
 
     def rank(self, viz1, viz2, get_gt=False):
         if not self.trained:
@@ -49,6 +40,25 @@ class VizRanker(object):
         print "Total comparisons: %d. Generated comparisons: %d. That's %.2f%%!" % (
             self.total_cmps, generated_cmps, 100.0 * float(generated_cmps) / self.total_cmps)
         self.trained = True
+
+    def evaluate(self):
+        success = self.learned_comparisons == self.gt_comparisons
+        if not success:
+            n_total = self.total_cmps
+            n_wrong = 0
+            for comp_key in self.learned_comparisons.keys():
+                lc = self.learned_comparisons[comp_key] 
+                gc = self.gt_comparisons[comp_key]
+                if lc != gc:
+                    if NPOINTS < 10 and DIMENSION < 10:
+                        print comp_key, lc, gc
+                    n_wrong += 1
+            print "error rate: %f" % (float(n_wrong) / n_total)
+            if NPOINTS < 10 and DIMENSION < 10:
+                print GROUND_TRUTH
+                print viz_ranker.dcell.internal_point
+        else:
+            print "error rate: 0%"
                     
     def infer_rank(self, viz1, viz2):
         if viz1 in self.dcell and viz2 in self.dcell: raise Exception('wtf??')
@@ -77,8 +87,8 @@ class VizRanker(object):
         return str(l1) + str(l2)
 
     def get_comparison(self, viz1, viz2):
-        # use mturk, or use ground truth
-        return get_gt_comparison(viz1, viz2)
+        """ Subclasses should implement! """
+        raise NotImplemented
 
     def is_ambiguous(self, viz1, viz2):
         return self.dcell.intersected_by(SeparatingHyperPlane(viz1, viz2))
@@ -133,8 +143,6 @@ class SeparatingHyperPlane(object):
         normal_xy = [self.intercept + normal_ti * self.normal for normal_ti in normal_t]
         plt.plot(*(np.array(normal_xy).T), color='g')
 
-        # Plot ground truth
-        plt.plot([GROUND_TRUTH[0]], [GROUND_TRUTH[1]], 'ro')
         if show:
             plt.show()
 
@@ -170,7 +178,8 @@ class DCell(object):
         #   * any point on the intersection of d and h is contained in the d cell.
         # or if the dcell is empty
         if not self.planes:
-            self.internal_point = np.around(np.random.rand(DIMENSION), decimals=4)
+            dimension = len(hyperplane.normal)
+            self.internal_point = np.around(np.random.rand(dimension), decimals=4)
             return True
         
         for dcell_plane in self.planes:
@@ -196,35 +205,6 @@ class DCell(object):
         if show:
             plt.show()
 
-if __name__ == '__main__':
-#    points = [[-1.5, -1, 0.5], [1, 1, 0.8], [1.5, 1,0.4], [-1, 0.75, -0.2], [1, -0.75, -0.1], [2, 1, -0.4]]
-#    points = [[-1.5, -1], [1, 1], [1.5, 1], [-1, 0.75], [1, -0.75], [2, 1]]
-#    points = [[-0.5, 1], [0.5, 1], [1,1]]
-    points = np.around(np.random.rand(NPOINTS, DIMENSION), decimals=4).tolist()
-    GROUND_TRUTH = np.around(np.random.rand(DIMENSION), decimals=4)
-    viz_ranker = VizRanker(points)
-    viz_ranker.rank_all(get_gt=True)
-    alg_success = viz_ranker.learned_comparisons == viz_ranker.gt_comparisons
-    if not alg_success:
-        n_total = viz_ranker.total_cmps
-        n_wrong = 0
-        for comp_key in viz_ranker.learned_comparisons.keys():
-            lc = viz_ranker.learned_comparisons[comp_key] 
-            gc = viz_ranker.gt_comparisons[comp_key]
-            if lc != gc:
-                if NPOINTS < 10 and DIMENSION < 10:
-                    print comp_key, lc, gc
-                n_wrong += 1
-        print "error rate: %f" % (float(n_wrong) / n_total)
-        if NPOINTS < 10 and DIMENSION < 10:
-            print GROUND_TRUTH
-            print viz_ranker.dcell.internal_point
-        import pdb;pdb.set_trace()
-    else:
-        print "error rate: 0%"
-    if DIMENSION == 2:
-        viz_ranker.draw()
-        plt.show()
 
 
 
