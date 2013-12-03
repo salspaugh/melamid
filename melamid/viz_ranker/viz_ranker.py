@@ -1,48 +1,89 @@
 import itertools
 import numpy as np
 import pylab as plt
+import threading
 
 class VizRanker(object):
+    """ Base class for ranking visualizations.
+    Usage:
+      train() trains the model
+      rank(viz1, viz2) compares the two visualizations.
+      rank_all() precomputes all possible comparisons.
+      evaluate() compares inferred comparisons to ground truth.
+    """
     def __init__(self, viz_list):
         self.viz_list = viz_list # list of d-dimensional featurized visualizations
         self.dcell = DCell() # region in d-space that contains reference visualization.
         self.learned_comparisons = {}
         self.gt_comparisons = {}
-        self.trained = False
         self.total_cmps = len(viz_list) * (len(viz_list) - 1) / 2.0
+        self.generated_cmps = 0
         self.dimension = len(self.viz_list[0])
+        self.trained = False
+        self.train_iterator = self.active_comparisons()
+        self.can_compare_flag = threading.Event()
+        self.compare_lock = threading.Lock()
+        self.can_compare_flag.set()
+        self.gt_populated = False
+
+    def train(self):
+        while self.train_next(): continue
 
     def rank(self, viz1, viz2, get_gt=False):
         if not self.trained:
-            self.train()
+            raise ValueError("Cannot rank without training model first.")
         cmp_key = self.get_cmp_key(viz1, viz2)
         if cmp_key not in self.learned_comparisons:
             if get_gt:
-                self.gt_comparisons[cmp_key] = self.get_comparison(viz1, viz2)
+                self.start_comparison(viz1, viz2, learned_comparison=False, gt_comparison=True)
             self.learned_comparisons[cmp_key] = self.infer_rank(viz1, viz2)
         return self.learned_comparisons[cmp_key]
 
     def rank_all(self, get_gt=False):
+        self.compare_lock.acquire()
         for viz1, viz2 in itertools.combinations(self.viz_list, 2):
             self.rank(viz1, viz2, get_gt=get_gt)
+        self.compare_lock.release()
 
-    def train(self):
+    def finish_comparison(self, viz1, viz2, better_viz, learned_comparison=False, gt_comparison=True):
+        try:
+            if learned_comparison:
+                self.learned_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
+                self.dcell.add_bound(SeparatingHyperPlane(viz1, viz2, better=better_viz))
+            if gt_comparison:
+                self.gt_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
+            if len(self.gt_comparisons) == self.total_cmps:
+                self.gt_populated = True
+        finally:
+            self.can_compare_flag.set() # we're all done: others can compare now.
+
+    def train_next(self):
         if self.trained:
-            return
-        generated_cmps = 0
-        for viz1, viz2 in self.active_comparisons():
-            generated_cmps += 1
-            better_viz = self.get_comparison(viz1, viz2)
-            self.learned_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
-            self.gt_comparisons[self.get_cmp_key(viz1, viz2)] = better_viz
-            self.dcell.add_bound(SeparatingHyperPlane(viz1, viz2,
-                                                      better=better_viz))
-        print "Total comparisons: %d. Generated comparisons: %d. That's %.2f%%!" % (
-            self.total_cmps, generated_cmps, 100.0 * float(generated_cmps) / self.total_cmps)
-        self.trained = True
+            return False
+        try:
+            # Wait until we're done with the comparison.
+            self.compare_lock.acquire()
+            self.can_compare_flag.wait()
+            self.can_compare_flag.clear()
+            self.compare_lock.release()
+            viz1, viz2 = self.train_iterator.next()
+            self.generated_cmps += 1
+            self.start_comparison(viz1, viz2, learned_comparison=True, gt_comparison=True)
+            return True
+        except StopIteration:
+            self.trained = True
+            print "Total comparisons: %d. Generated comparisons: %d. That's %.2f%%!" % (
+                self.total_cmps, self.generated_cmps, 100.0 * float(self.generated_cmps) / self.total_cmps)
+            self.can_compare_flag.set() # we're all done: others can compare now.
+            return False
+        except:
+            self.can_compare_flag.set() # Error: make sure to let others compare.
+            raise
 
     def evaluate(self):
+        while not self.gt_populated: pass # spin until gt is fully populated.
         success = self.learned_comparisons == self.gt_comparisons
+        npoints = len(self.viz_list)
         if not success:
             n_total = self.total_cmps
             n_wrong = 0
@@ -50,12 +91,12 @@ class VizRanker(object):
                 lc = self.learned_comparisons[comp_key] 
                 gc = self.gt_comparisons[comp_key]
                 if lc != gc:
-                    if NPOINTS < 10 and DIMENSION < 10:
+                    if npoints < 10 and self.dimension < 10:
                         print comp_key, lc, gc
                     n_wrong += 1
             print "error rate: %f" % (float(n_wrong) / n_total)
-            if NPOINTS < 10 and DIMENSION < 10:
-                print GROUND_TRUTH
+            if npoints < 10 and self.dimension < 10:
+                #print GROUND_TRUTH
                 print viz_ranker.dcell.internal_point
         else:
             print "error rate: 0%"
@@ -86,8 +127,12 @@ class VizRanker(object):
         # just concatenate the lists
         return str(l1) + str(l2)
 
-    def get_comparison(self, viz1, viz2):
-        """ Subclasses should implement! """
+    def start_comparison(self, viz1, viz2, learned_comparison=True, gt_comparison=True):
+        """ Subclasses should implement. This method is asynchronous: i.e., it should return immediately, and 
+        eventually call self.finish_comparison(viz1, viz2, better_viz, learned_comparison, gt_comparison). 
+        It need not worry about synchronization. learned_comparison and gt_comparison should be passed through
+        to finish_comparison with no modification.
+        """
         raise NotImplemented
 
     def is_ambiguous(self, viz1, viz2):
