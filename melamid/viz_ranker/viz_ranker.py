@@ -97,7 +97,7 @@ class VizRanker(object):
             print "error rate: %f" % (float(n_wrong) / n_total)
             if npoints < 10 and self.dimension < 10:
                 #print GROUND_TRUTH
-                print viz_ranker.dcell.internal_point
+                print self.dcell.internal_point
         else:
             print "error rate: 0%"
                     

@@ -1,0 +1,22 @@
+$def with (img_url, cmp_key, assignment_id, allow_submit)
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="static/js/viz_ranker.js"></script>
+</head>
+<body>
+<p>Which is closer to the red point: the green point or the blue point?</p>
+<img src="$img_url" />
+$if allow_submit:
+  <form id="submitForm" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+    <input type="radio" name="answer" value="green">The green point</input>
+    <input type="radio" name="answer" value="blue">The blue point</input>
+    <input type="hidden" name="cmp_key" value="$cmp_key" id="cmp_key"/>
+    <input type="hidden" name="assignmentId" value="$assignment_id" />
+    <button type="submit" id="finish">Submit</button>
+  </form>
+  <input type="hidden" id="post_complete" value="false" />
+$else:
+  <p>IN PREVIEW MODE</p>
+</body>
+</html>
